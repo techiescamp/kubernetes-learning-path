@@ -22,7 +22,42 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-### 2. Kubernetes Architecture
-    <--In Progress-->
-   
+### 2. Learn Kubernetes Architecture
+
+<--In Progress-->
+
+### 3. Learn to Setup Kuberntes Cluster
+
+<--In Progress-->
+
+### 4. Understand Kubernetes Objects And Resources
+
+<--In Progress-->
+
+### 5. Learn About Pod & Associated Resources
+
+<--In Progress-->
+
+### 6. Learn About Pod Dependent Objects
+
+<--In Progress-->
+
+### 7. Deploy End to End Application on Kubernetes
+<--In Progress-->
+
+### 8. Learn About Securing Kubernetes Cluster
+
+<--In Progress-->
+
+### 9. Learn About Kubernetes Operator Pattern
+
+<--In Progress-->
+
+### 10. Learn Important Kubernetes Configurations
+
+<--In Progress-->
+
+### 11. Learn Kubernetes Best Practices
+
+<--In Progress-->
 
