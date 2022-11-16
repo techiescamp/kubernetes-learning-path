@@ -22,7 +22,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-   ### 2. Kubernetes Architecture
+### 2. Kubernetes Architecture
     <--In Progress-->
    
 
