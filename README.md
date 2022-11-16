@@ -43,6 +43,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 <--In Progress-->
 
 ### 7. Deploy End to End Application on Kubernetes
+
 <--In Progress-->
 
 ### 8. Learn About Securing Kubernetes Cluster
@@ -58,6 +59,14 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 <--In Progress-->
 
 ### 11. Learn Kubernetes Best Practices
+
+<--In Progress-->
+
+### 12. Learn Kubernetes Logging & Monitoring
+
+<--In Progress-->
+
+### 13. Learn Kubernetes Prodcution Best Practices
 
 <--In Progress-->
 
