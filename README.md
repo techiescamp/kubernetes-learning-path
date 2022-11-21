@@ -66,7 +66,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 <--In Progress-->
 
-### 13. Learn Kubernetes Prodcution Best Practices
+### 13. Learn Kubernetes Production Best Practices
 
 <--In Progress-->
 
