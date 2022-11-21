@@ -68,5 +68,14 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 ### 13. Learn Kubernetes Production Best Practices
 
+- Production Readiness Checklist
+- [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
+- [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
+
+### 13. Learn Kubernetes Templating Tools
+
 <--In Progress-->
 
+### 14. Kubernetes Deployment Tools (GitOps Based)
+
+<--In Progress-->
