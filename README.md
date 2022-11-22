@@ -71,6 +71,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 - Production Readiness Checklist
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
 - [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
+- [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
 
 ### 13. Learn Kubernetes Templating Tools
 
