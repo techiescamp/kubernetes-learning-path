@@ -28,6 +28,10 @@ The Following image shows the high level kubernetes architecture and how externa
 
 ![k8s-architecture](images/k8s-architecture.png)
 
+Refer the follwing documents to learn the Kubernetes Architecture.
+
+- [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
+
 ### 3. Learn to Setup Kuberntes Cluster
 
 <--In Progress-->
