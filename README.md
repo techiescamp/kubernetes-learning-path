@@ -24,7 +24,9 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 ### 2. Learn Kubernetes Architecture
 
-<--In Progress-->
+The Following image shows the high level kubernetes architecture and how external services connect to the cluster.
+
+![k8s-architecture](images/k8s-architecture.png)
 
 ### 3. Learn to Setup Kuberntes Cluster
 
