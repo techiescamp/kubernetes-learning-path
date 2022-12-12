@@ -31,10 +31,25 @@ The Following image shows the high level kubernetes architecture and how externa
 Refer the follwing documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
+- 
 
 ### 3. Learn to Setup Kuberntes Cluster
 
-<--In Progress-->
+There are many ways to set up a Kubernetes cluster. The following are the recommended ones.
+
+- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)<sup>Github</sup>
+- [Kubeadm Cluster Setup](https://devopscube.com/setup-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
+- [Minikube Development Cluster ](https://devopscube.com/kubernetes-minikube-tutorial/)<sup>Blog</sup>
+- [Kind Development Cluster](https://kind.sigs.k8s.io/)<sup>Official Documentation</sup>
+- [Vagrant Automated Cluster](https://github.com/techiescamp/vagrant-kubeadm-kubernetes)<sup>Github</sup>
+
+Also, you can use the free cloud credits and set up managed Kubernetes clusters.
+
+- [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)<sup>Website</sup>
+- [EKS - AWS $300 free POC credits](https://aws.amazon.com/eks/)<sup>Website</sup>
+- [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Website</sup>
+- [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Website</sup>
+
 
 ### 4. Understand Kubernetes Objects And Resources
 
