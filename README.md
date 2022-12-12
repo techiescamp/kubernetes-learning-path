@@ -31,7 +31,6 @@ The Following image shows the high level kubernetes architecture and how externa
 Refer the follwing documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
-- 
 
 ### 3. Learn to Setup Kuberntes Cluster
 
