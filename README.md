@@ -3,11 +3,10 @@
 
 If you are planning to use this repo for reference, please hit the star. Thanks!
 
-## 📢 Kubernetes Certification Voucher Code
-
-If you are preparing for CKA, CKAD, CKS, or KCNA exam, **save 35%** today using code **HOLIDAY22** at https://kube.promo/cyber. It is a limited-time offer. Or Check out Linux Foundation coupon page for the latest voucher codes.
 
 ## Kubernetes Learning Roadmap
+
+> 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 35%** today using code **HOLIDAY22** at https://kube.promo/devops. It is a limited-time offer from Linux Foudation.
 
 ### 1. Prerequisites
 
