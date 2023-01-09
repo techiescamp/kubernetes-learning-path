@@ -8,7 +8,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 > 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save $60** today using code **DCUBEOFFER** at https://kube.promo/devops. It is a limited-time offer from Linux Foudation.
 
-### 1. Prerequisites
+### Prerequisites
 
 - [Learn Container concepts & Gets Hands on with Docker](https://www.freecodecamp.org/news/the-docker-handbook/) <sup>Complete Guide</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
@@ -25,17 +25,17 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-### 2. Learn Kubernetes Architecture
+### Learn Kubernetes Architecture
 
 The Following image shows the high level kubernetes architecture and how external services connect to the cluster.
 
-![k8s-architecture](images/k8s-architecture.png)
+![k8s-architecture](images/kubernetes-architecture.png)
 
 Refer the follwing documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
 
-### 3. Learn to Setup Kuberntes Cluster
+### Learn to Setup Kuberntes Cluster
 
 There are many ways to set up a Kubernetes cluster. The following are the recommended ones.
 
@@ -52,10 +52,22 @@ Also, you can use the free cloud credits and set up managed Kubernetes clusters.
 - [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Website</sup>
 - [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Website</sup>
 
+### Understand KubeConfig File
+
+As a DevOps engineer, it is important to become familiar with the Kubeconfig file. It is crucial for tasks such as setting up cluster authentication for CI/CD systems, providing cluster access to developers, and more.
+
+A Kubeconfig file is a YAML file that stores information and credentials for connecting to a Kubernetes cluster. It is used by command-line tools such as kubectl and other client libraries to authenticate with the cluster and interact with its resources.
+
+The Kubeconfig file can be used to store information for multiple clusters and users, allowing users to switch between different clusters and contexts easily. It is an important tool for managing access to and interacting with Kubernetes clusters.
+
+Refer the follwing document to learn about Kubeconfig File in detail.
+
+- [Kubeconfig File Explained With Practical Examples](https://devopscube.com/kubernetes-kubeconfig-file/) <sup>Blog</sup>
+
 
 ### 4. Understand Kubernetes Objects And Resources
 
-<--In Progress-->
+
 
 ### 5. Learn About Pod & Associated Resources
 
