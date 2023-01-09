@@ -8,7 +8,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 > 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save $60** today using code **DCUBEOFFER** at https://kube.promo/devops. It is a limited-time offer from Linux Foudation.
 
-### Prerequisites
+### 1.Prerequisites
 
 - [Learn Container concepts & Gets Hands on with Docker](https://www.freecodecamp.org/news/the-docker-handbook/) <sup>Complete Guide</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
@@ -25,7 +25,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-### Learn Kubernetes Architecture
+### 2.Learn Kubernetes Architecture
 
 The Following image shows the high level kubernetes architecture and how external services connect to the cluster.
 
@@ -35,7 +35,7 @@ Refer the follwing documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
 
-### Learn to Setup Kuberntes Cluster
+### 3.Learn to Setup Kuberntes Cluster
 
 There are many ways to set up a Kubernetes cluster. The following are the recommended ones.
 
@@ -52,7 +52,7 @@ Also, you can use the free cloud credits and set up managed Kubernetes clusters.
 - [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Website</sup>
 - [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Website</sup>
 
-### Understand KubeConfig File
+### 4.Understand KubeConfig File
 
 As a DevOps engineer, it is important to become familiar with the Kubeconfig file. It is crucial for tasks such as setting up cluster authentication for CI/CD systems, providing cluster access to developers, and more.
 
@@ -65,53 +65,56 @@ Refer the follwing document to learn about Kubeconfig File in detail.
 - [Kubeconfig File Explained With Practical Examples](https://devopscube.com/kubernetes-kubeconfig-file/) <sup>Blog</sup>
 
 
-### 4. Understand Kubernetes Objects And Resources
+### 5.Understand Kubernetes Objects And Resources
+
+In Kubernetes, an object is a persisted entity in the cluster that represents a desired state of the system. It is created and managed by the Kubernetes API server, and is stored in the etcd key-value store. Examples of Kubernetes objects include pods, services, and deployments.
+
+A resource is a representation of a Kubernetes object that is exposed by the Kubernetes API. It is a way for clients to interact with and manipulate objects in the cluster. Resources are typically accessed through the Kubernetes API using HTTP verbs such as GET, POST, and DELETE.
 
 
-
-### 5. Learn About Pod & Associated Resources
-
-<--In Progress-->
-
-### 6. Learn About Pod Dependent Objects
-
-<--In Progress-->
-
-### 7. Deploy End to End Application on Kubernetes
+### 6.Learn About Pod & Associated Resources
 
 <--In Progress-->
 
-### 8. Learn About Securing Kubernetes Cluster
+### 7.Learn About Pod Dependent Objects
 
 <--In Progress-->
 
-### 9. Learn About Kubernetes Operator Pattern
+### 8.Deploy End to End Application on Kubernetes
 
 <--In Progress-->
 
-### 10. Learn Important Kubernetes Configurations
+### 9.Learn About Securing Kubernetes Cluster
 
 <--In Progress-->
 
-### 11. Learn Kubernetes Best Practices
+### 10.Learn About Kubernetes Operator Pattern
 
 <--In Progress-->
 
-### 12. Learn Kubernetes Logging & Monitoring
+### 11.Learn Important Kubernetes Configurations
 
 <--In Progress-->
 
-### 13. Learn Kubernetes Production Best Practices
+### 12.Learn Kubernetes Best Practices
+
+<--In Progress-->
+
+### 13.Learn Kubernetes Logging & Monitoring
+
+<--In Progress-->
+
+### 14.Learn Kubernetes Production Best Practices
 
 - Production Readiness Checklist
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
 - [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
 - [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
 
-### 13. Learn Kubernetes Templating Tools
+### 15.Learn Kubernetes Templating Tools
 
 <--In Progress-->
 
-### 14. Kubernetes Deployment Tools (GitOps Based)
+### 16.Kubernetes Deployment Tools (GitOps Based)
 
 <--In Progress-->
