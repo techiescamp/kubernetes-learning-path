@@ -29,7 +29,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Following image shows the high level kubernetes architecture and how external services connect to the cluster.
 
-![k8s-architecture](images/kubernetes-architecture.png)
+![kubernetes-architecture](images/kubernetes-architecture.png)
 
 Refer the follwing documents to learn the Kubernetes Architecture.
 
