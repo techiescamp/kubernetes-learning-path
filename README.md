@@ -120,10 +120,21 @@ If you do not have real world Kubernetes experience, it is better to read case s
 - [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)<sup>Official Case Studies</sup>
 - [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)<sup>Blog</sup>
 - [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)<sup>Blog</sup>
+- [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)<sup>Blog</sup>
 
 ### 16.Learn Kubernetes Templating Tools
 
-<--In Progress-->
+Helm and Kustomize are both tools that are used to manage Kubernetes manifests. They are similar in many ways, but have some key differences.
+
+Helm is a package manager for Kubernetes that allows users to easily install, manage, and upgrade applications on a Kubernetes cluster. It uses a concept called "charts" which are pre-configured sets of Kubernetes resources that can be easily deployed, upgraded, and rolled back. Helm also includes built-in support for versioning and rollback, and allows users to share and discover charts with others through repositories.
+
+Helm is a package manager for Kubernetes that allows users to easily install, manage, and upgrade applications on a Kubernetes cluster. It uses a concept called "charts" which are pre-configured sets of Kubernetes resources that can be easily deployed, upgraded, and rolled back. Helm also includes built-in support for versioning and rollback, and allows users to share and discover charts with others through repositories.
+
+Kustomize, on the other hand, is a tool that allows users to customize and configure existing Kubernetes manifests. It uses a concept called "patches" which can be applied to existing manifests to customize them for different environments and use cases. Unlike Helm, Kustomize does not include built-in support for versioning and rollback, and does not have a concept of "packages" or "repositories".
+
+In summary, Helm is a full-featured package manager that provides an easy way to deploy, manage and upgrade applications on a Kubernetes cluster, while Kustomize is a simpler tool that focuses on customizing and configuring existing manifests without providing versioning, rollback and package management capabilities. Both tools have their own use cases and it depends on the use case and the organization needs which one to choose.
+
+- [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)<sup>Hands-On Blog</sup>
 
 ### 16.Kubernetes Deployment Tools (GitOps Based)
 
