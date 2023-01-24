@@ -117,9 +117,9 @@ A resource is a representation of a Kubernetes object that is exposed by the Kub
 
 If you do not have real world Kubernetes experience, it is better to read case studies of other companies using kubernetes. 
 
-- [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)
-- [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)
-- [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)
+- [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)<sup>Official Case Studies</sup>
+- [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)<sup>Blog</sup>
+- [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)<sup>Blog</sup>
 
 ### 16.Learn Kubernetes Templating Tools
 
