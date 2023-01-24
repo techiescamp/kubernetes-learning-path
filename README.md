@@ -104,20 +104,22 @@ A resource is a representation of a Kubernetes object that is exposed by the Kub
 
 <--In Progress-->
 
-### 14.Learn Kubernetes Production Best Practices
+### 14.Learn Kubernetes Production Best Practices/Learnings
 
 
 
-- Production Readiness Checklist
+- Production Readiness Checklist 
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
 - [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
 - [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
 
-### 15.Real-World Kubernetes Use Cases 
+### 15.Real-World Kubernetes Case Studies 
 
 If you do not have real world Kubernetes experience, it is better to read case studies of other companies using kubernetes. 
 
 - [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)
+- [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)
+- [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)
 
 ### 16.Learn Kubernetes Templating Tools
 
