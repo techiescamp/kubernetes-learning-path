@@ -8,7 +8,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 > 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 35%** today using code **NEWYEAR23** at https://kube.promo/devops. It is a limited-time offer from Linux Foudation.
 
-### 1.Prerequisites
+### Prerequisites
 
 - [Learn Container concepts & Gets Hands on with Docker](https://www.freecodecamp.org/news/the-docker-handbook/) <sup>Complete Guide</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
@@ -25,7 +25,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-### 2.Learn Kubernetes Architecture
+### Learn Kubernetes Architecture
 
 The Following image shows the high level kubernetes architecture and how external services connect to the cluster.
 
@@ -35,9 +35,11 @@ Refer the follwing documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
 
-### 3.Learn to Setup Kuberntes Cluster
+### Learn to Setup Kuberntes Cluster
 
-There are many ways to set up a Kubernetes cluster. The following are the recommended ones.
+As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environemnts. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking, and simulates a real-world project. 
+
+Additionally, mastering the configuration of multi-node clusters can be beneficial for interviews and building confidence in your abilities. The following are recommended ways to establish a Kubernetes cluster.
 
 - [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)<sup>Github</sup>
 - [Kubeadm Cluster Setup](https://devopscube.com/setup-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
@@ -45,12 +47,15 @@ There are many ways to set up a Kubernetes cluster. The following are the recomm
 - [Kind Development Cluster](https://kind.sigs.k8s.io/)<sup>Official Documentation</sup>
 - [Vagrant Automated Cluster](https://github.com/techiescamp/vagrant-kubeadm-kubernetes)<sup>Github</sup>
 
-Also, you can use the free cloud credits and set up managed Kubernetes clusters.
+### $1000+ Free Cloud Credits to Launch Clusters
 
-- [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)<sup>Website</sup>
-- [EKS - AWS $300 free POC credits](https://aws.amazon.com/eks/)<sup>Website</sup>
-- [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Website</sup>
-- [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Website</sup>
+Launching large clusters in the cloud can be costly. So utilize the available cloud credits to practice deploying clusters as if you work on a real project. All cloud platforms offer managed Kubernetes services.
+
+- [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)<sup>Cloud Platform</sup>
+- [EKS - AWS $300 free POC credits](https://aws.amazon.com/eks/)<sup>Cloud Platform</sup>
+- [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Cloud Platform</sup>
+- [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Cloud Platform</sup>
+- [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
 
 ### 4.Understand KubeConfig File
 
@@ -69,8 +74,24 @@ Refer the follwing document to learn about Kubeconfig File in detail.
 
 In Kubernetes, an object is a persisted entity in the cluster that represents a desired state of the system. It is created and managed by the Kubernetes API server, and is stored in the etcd key-value store. Examples of Kubernetes objects include pods, services, and deployments.
 
-A resource is a representation of a Kubernetes object that is exposed by the Kubernetes API. It is a way for clients to interact with and manipulate objects in the cluster. Resources are typically accessed through the Kubernetes API using HTTP verbs such as GET, POST, and DELETE.
+Here is an example of a Pod Object
 
+<pre>
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+</pre>
+
+A resource is a representation of a Kubernetes object that is exposed by the Kubernetes API. It is a way for clients to interact with and manipulate objects in the cluster. 
+
+A resource refers to a specific API URL used to access an object. Resources are typically accessed through the Kubernetes API using HTTP verbs such as GET, POST, and DELETE. For instance, the <code>/api/v1/pods</code> resource can be used to retrieve a list of v1 Pod objects. Additionally, an individual v1 Pod object can be obtained from the <code>/api/v1/namespaces/<namespace-name>/pods/<pod-name></code> resource
 
 ### 6.Learn About Pod & Associated Resources
 
