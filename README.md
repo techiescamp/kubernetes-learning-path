@@ -4,11 +4,13 @@
 If you are planning to use this repo for reference, please hit the star. Thanks!
 
 
-## Kubernetes Learning Roadmap
+Kubernetes Learning Roadmap
+=================
 
 > 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 35%** today using code **NEWYEAR23** at https://kube.promo/devops. It is a limited-time offer from Linux Foudation.
 
-### Prerequisites
+Prerequisites
+=================
 
 - [Learn Container concepts & Gets Hands on with Docker](https://www.freecodecamp.org/news/the-docker-handbook/) <sup>Complete Guide</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
@@ -25,8 +27,8 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-### Learn Kubernetes Architecture
-
+Learn Kubernetes Architecture
+=================
 The Following image shows the high level kubernetes architecture and how external services connect to the cluster.
 
 ![kubernetes-architecture](https://user-images.githubusercontent.com/5181260/214278898-43e50d8c-0fc3-4b5e-ae63-dc61ec8097a8.png)
@@ -35,7 +37,8 @@ Refer the follwing documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
 
-### Learn to Setup Kuberntes Cluster
+Learn to Setup Kuberntes Cluster
+=================
 
 As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environemnts. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking, and simulates a real-world project. 
 
@@ -47,7 +50,8 @@ Additionally, mastering the configuration of multi-node clusters can be benefici
 - [Kind Development Cluster](https://kind.sigs.k8s.io/)<sup>Official Documentation</sup>
 - [Vagrant Automated Cluster](https://github.com/techiescamp/vagrant-kubeadm-kubernetes)<sup>Github</sup>
 
-### $1000+ Free Cloud Credits to Launch Clusters
+$1000+ Free Cloud Credits to Launch Clusters
+=================
 
 Launching large clusters in the cloud can be costly. So utilize the available cloud credits to practice deploying clusters as if you work on a real project. All cloud platforms offer managed Kubernetes services.
 
@@ -57,7 +61,8 @@ Launching large clusters in the cloud can be costly. So utilize the available cl
 - [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Cloud Platform</sup>
 - [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
 
-### 4.Understand KubeConfig File
+Understand KubeConfig File
+=================
 
 As a DevOps engineer, it is important to become familiar with the Kubeconfig file. It is crucial for tasks such as setting up cluster authentication for CI/CD systems, providing cluster access to developers, and more.
 
@@ -70,7 +75,8 @@ Refer the follwing document to learn about Kubeconfig File in detail.
 - [Kubeconfig File Explained With Practical Examples](https://devopscube.com/kubernetes-kubeconfig-file/) <sup>Blog</sup>
 
 
-### 5.Understand Kubernetes Objects And Resources
+Understand Kubernetes Objects And Resources
+=================
 
 In Kubernetes, an object is a persisted entity in the cluster that represents a desired state of the system. It is created and managed by the Kubernetes API server, and is stored in the etcd key-value store. Examples of Kubernetes objects include pods, services, and deployments.
 
@@ -93,48 +99,48 @@ A resource is a representation of a Kubernetes object that is exposed by the Kub
 
 A resource refers to a specific API URL used to access an object. Resources are typically accessed through the Kubernetes API using HTTP verbs such as GET, POST, and DELETE. For instance, the <code>/api/v1/pods</code> resource can be used to retrieve a list of v1 Pod objects. Additionally, an individual v1 Pod object can be obtained from the <code>/api/v1/namespaces/<namespace-name>/pods/<pod-name></code> resource
 
-### 6.Learn About Pod & Associated Resources
+### Learn About Pod & Associated Resources
 
 <--In Progress-->
 
-### 7.Learn About Pod Dependent Objects
+### Learn About Pod Dependent Objects
 
 <--In Progress-->
 
-### 8.Deploy End to End Application on Kubernetes
+### Deploy End to End Application on Kubernetes
 
 <--In Progress-->
 
-### 9.Learn About Securing Kubernetes Cluster
+### Learn About Securing Kubernetes Cluster
 
 <--In Progress-->
 
-### 10.Learn About Kubernetes Operator Pattern
+### Learn About Kubernetes Operator Pattern
 
 <--In Progress-->
 
-### 11.Learn Important Kubernetes Configurations
+### Learn Important Kubernetes Configurations
 
 <--In Progress-->
 
-### 12.Learn Kubernetes Best Practices
+### Learn Kubernetes Best Practices
 
 <--In Progress-->
 
-### 13.Learn Kubernetes Logging & Monitoring
+### Learn Kubernetes Logging & Monitoring
 
 <--In Progress-->
 
-### 14.Learn Kubernetes Production Best Practices/Learnings
-
-
+Learn Kubernetes Production Best Practices/Learnings
+=================
 
 - Production Readiness Checklist 
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
 - [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
 - [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
 
-### 15.Real-World Kubernetes Case Studies 
+Real-World Kubernetes Case Studies 
+=================
 
 If you do not have real world Kubernetes experience, it is better to read case studies of other companies using kubernetes. 
 
@@ -143,7 +149,8 @@ If you do not have real world Kubernetes experience, it is better to read case s
 - [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)<sup>Blog</sup>
 - [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)<sup>Blog</sup>
 
-### 16.Learn Kubernetes Templating Tools
+Learn Kubernetes Templating Tools
+=================
 
 Helm and Kustomize are both tools that are used to manage Kubernetes manifests. They are similar in many ways, but have some key differences.
 
