@@ -40,7 +40,7 @@ Refer the follwing documents to learn the Kubernetes Architecture.
 Learn to Setup Kuberntes Cluster
 =================
 
-As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environemnts. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking, and simulates a real-world project. 
+As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environments. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking, and simulates a real-world project. 
 
 Additionally, mastering the configuration of multi-node clusters can be beneficial for interviews and building confidence in your abilities. The following are recommended ways to establish a Kubernetes cluster.
 
