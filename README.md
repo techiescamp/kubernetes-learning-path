@@ -63,7 +63,6 @@ As a DevOps engineer, it is important to become familiar with the Kubeconfig fil
 A Kubeconfig file is a YAML file that stores information and credentials for connecting to a Kubernetes cluster. It is used by command-line tools such as kubectl and other client libraries to authenticate with the cluster and interact with its resources.
 
 The Kubeconfig file can be used to store information for multiple clusters and users, allowing users to switch between different clusters and contexts easily. It is an important tool for managing access to and interacting with Kubernetes clusters.
-![kubeconfig](https://user-images.githubusercontent.com/106984297/216806113-17905188-5730-44ab-afc0-5fd2e3c166a0.png)
 
 Refer the follwing document to learn about Kubeconfig File in detail.
 
@@ -91,7 +90,6 @@ spec:
 A resource is a representation of a Kubernetes object that is exposed by the Kubernetes API. It is a way for clients to interact with and manipulate objects in the cluster.
 
 A resource refers to a specific API URL used to access an object. Resources are typically accessed through the Kubernetes API using HTTP verbs such as GET, POST, and DELETE. For instance, the <code>/api/v1/pods</code> resource can be used to retrieve a list of v1 Pod objects. Additionally, an individual v1 Pod object can be obtained from the <code>/api/v1/namespaces/<namespace-name>/pods/<pod-name></code> resource
-![obj-rss](https://user-images.githubusercontent.com/106984297/216806100-442b64f7-1706-4bf2-9d64-83c0dcf04e27.png)
 
 ### Learn About Pod & Associated Resources
 
