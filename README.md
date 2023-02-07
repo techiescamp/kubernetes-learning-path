@@ -33,6 +33,15 @@ Refer the follwing documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
 
+# $1000+ Free Cloud Credits to Launch Clusters
+
+Launching large clusters in the cloud can be costly. So utilize the available cloud credits to practice deploying clusters as if you work on a real project. All cloud platforms offer managed Kubernetes services.
+
+- [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)<sup>Cloud Platform</sup>
+- [EKS - AWS $300 free POC credits](https://aws.amazon.com/eks/)<sup>Cloud Platform</sup>
+- [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Cloud Platform</sup>
+- [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Cloud Platform</sup>
+- [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
 
 # Learn Kubernetes Cluster Setup & Administration
 
@@ -50,16 +59,6 @@ Following are some of the important cluster administrative tasks
 
 - [Kubeadm Cluster Upgrade](https://devopscube.com/upgrade-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
 - [etcd backup using etcdctl](https://devopscube.com/backup-etcd-restore-kubernetes/)<sup>Blog</sup>
-
-# $1000+ Free Cloud Credits to Launch Clusters
-
-Launching large clusters in the cloud can be costly. So utilize the available cloud credits to practice deploying clusters as if you work on a real project. All cloud platforms offer managed Kubernetes services.
-
-- [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)<sup>Cloud Platform</sup>
-- [EKS - AWS $300 free POC credits](https://aws.amazon.com/eks/)<sup>Cloud Platform</sup>
-- [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Cloud Platform</sup>
-- [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Cloud Platform</sup>
-- [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
 
 # Understand KubeConfig File
 
