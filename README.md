@@ -34,7 +34,7 @@ Refer the follwing documents to learn the Kubernetes Architecture.
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
 
 
-# Learn to Setup Kubernetes Cluster
+# Learn Kubernetes Cluster Setup & Administration
 
 As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environments. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking, and simulates a real-world project. 
 
@@ -45,6 +45,11 @@ Additionally, mastering the configuration of multi-node clusters can be benefici
 - [Minikube Development Cluster ](https://devopscube.com/kubernetes-minikube-tutorial/)<sup>Blog</sup>
 - [Kind Development Cluster](https://kind.sigs.k8s.io/)<sup>Official Documentation</sup>
 - [Vagrant Automated Cluster](https://github.com/techiescamp/vagrant-kubeadm-kubernetes)<sup>Github</sup>
+
+Following are some of the important cluster administrative tasks
+
+- [Kubeadm Cluster Upgrade](https://devopscube.com/upgrade-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
+- [etcd backup using etcdctl](https://devopscube.com/backup-etcd-restore-kubernetes/)<sup>Blog</sup>
 
 # $1000+ Free Cloud Credits to Launch Clusters
 
