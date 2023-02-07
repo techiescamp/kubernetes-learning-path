@@ -57,6 +57,7 @@ Additionally, mastering the configuration of multi-node clusters can be benefici
 
 Following are some of the important cluster administrative tasks
 
+- [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)<sup>Official Doc</sup>
 - [Kubeadm Cluster Upgrade](https://devopscube.com/upgrade-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
 - [etcd backup using etcdctl](https://devopscube.com/backup-etcd-restore-kubernetes/)<sup>Blog</sup>
 
@@ -153,12 +154,19 @@ Helm is a package manager for Kubernetes that allows users to easily install, ma
 Kustomize, on the other hand, is a tool that allows users to customize and configure existing Kubernetes manifests. It uses a concept called "patches" which can be applied to existing manifests to customize them for different environments and use cases. Unlike Helm, Kustomize does not include built-in support for versioning and rollback, and does not have a concept of "packages" or "repositories".
 
 - [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)<sup>Hands-On Blog</sup>
+- [Getting started with Kuztomize](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/)<sup>Official Doc</sup>
 
-### 16.Kubernetes Deployment Tools (GitOps Based)
+# Kubernetes Deployment Tools (GitOps Based)
 
-GitOps is a approach to Continuous Deployment that uses Git as a single source of truth for declarative infrastructure and application code. Some popular GitOps based tools for deploying applications to Kubernetes clusters are:
+GitOps is a approach to Continuous Deployment that uses Git as a single source of truth for declarative infrastructure and application code. 
+
+- [Guide to GitOps](https://www.weave.works/technologies/gitops/)<sup>Official Doc</sup>
+
+Some popular GitOps based tools for deploying applications to Kubernetes clusters are:
 
 - [Argo CD](https://argo-cd.readthedocs.io/en/stable/)<sup>Official Doc</sup>
-- [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/) <sup>Official Doc</sup>
+- [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/)<sup>Official Doc</sup>
+- [FluxCD](https://fluxcd.io/)<sup>Official Doc</sup>
+- [JenkinsX](https://jenkins-x.io/)<sup>Official Doc</sup>
 
   <--In Progress-->
