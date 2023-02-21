@@ -14,7 +14,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 - [Learn Basics of Key Value Store](https://redis.com/nosql/key-value-databases/)<sup>Blog</sup>
 - [Learn the basics of REST API](https://blog.postman.com/intro-to-apis-what-is-an-api/)<sup>Blog</sup>
 - [Learn YAML](https://www.educative.io/blog/yaml-tutorial?aff=KNLz)<sup>Blog</sup>
-- [Understand Service Discovery](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/) <sup>Blog</sup>
+- [Understand Service Discovery](https://devopscube.com/service-discovery-explained/) <sup>Blog</sup>
 - Learn Networking Basics
    - [L4 & L7 Layers (OSI Layers)](https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/)<sup>Blog</sup>
    - [SSL/TLS](https://www.cloudflare.com/en-gb/learning/ssl/how-does-ssl-work/)<sup>Blog</sup>
