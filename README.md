@@ -4,7 +4,7 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 # Kubernetes Learning Roadmap
 
-> 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save $80** today using code **DCUBE20** at https://kube.promo/devops. It is a limited-time offer from Linux Foundation.
+> 🚀  If you are preparing for CKA, CKAD, CKS, or KCNA exam, get **$60 discount today** using code **DCUBEOFFER** at https://kube.promo/latest. It is a limited-time offer. 
 
 # Prerequisites
 
