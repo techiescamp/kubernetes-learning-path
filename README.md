@@ -3,11 +3,10 @@
 If you are planning to use this repo for reference, please hit the star. Thanks!
 
 # Kubernetes Learning Roadmap
-Looking to learn Kubernetes but not sure where to start? Look no further than the Kubernetes Learning Roadmap GitHub repository! You'll find a curated list of courses, tutorials, videos, and books that cover everything you need to know about Kubernetes. 
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
-# Kubernetes Certification Vouchers
+# Kubernetes Certification Coupon
 
 If you are preparing for CKA, CKAD, CKS, or KCNA exam, get **$60 discount today** using code **DCUBEOFFER** at https://kube.promo/latest. It is a limited-time offer. 
 
