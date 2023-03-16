@@ -8,7 +8,7 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 # Kubernetes Certification Coupon
 
-If you are preparing for CKA, CKAD, CKS, or KCNA exam, get **$60 discount today** using code **DCUBEOFFER** at https://kube.promo/latest. It is a limited-time offer. 
+🚀 If you are preparing for CKA, CKAD, CKS, or KCNA exam, **save 25%** today using code **MARCH23** at https://kube.promo/cyber. It is a limited-time offer.
 
 # Kubernetes Learning Prerequisites
 
