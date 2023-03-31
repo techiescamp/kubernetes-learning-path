@@ -38,8 +38,8 @@ The Following image shows the high level kubernetes architecture and how externa
 
 Refer the follwing documents to learn the Kubernetes Architecture.
 
-- [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/) <sup>Blog</sup>
-- [Kubernetes Garbage Collection](https://github.com/techiescamp/kubernetes-learning-path/blob/main/architecture/garbage-collection.md)<sup>Doc</sup>
+- [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)<sup>Blog</sup>
+- <a href="https://github.com/techiescamp/kubernetes-learning-path/blob/main/architecture/garbage-collection.md" target="_blank">Kubernetes Garbage Collection</a><sup>Doc</sup>
 
 # $1000+ Free Cloud Credits to Launch Clusters
 
