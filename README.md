@@ -140,11 +140,10 @@ A resource refers to a specific API URL used to access an object. Resources are 
 
 <--In Progress-->
 
-# Learn Kubernetes Production Best Practices/Learnings
+# Learn Kubernetes Production Best Practices
 
 - Production Readiness Checklist
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
-- [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
 - [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
 - [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
 
@@ -158,6 +157,11 @@ If you do not have real world Kubernetes experience, it is better to read case s
 - [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)<sup>Blog</sup>
 - [Scaling 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks)<sup>Blog</sup>
 - [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)<sup>Blog</sup>
+
+# Kubernetes Failures/Learnings
+
+- [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
+- [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
 
 # Learn Kubernetes Templating Tools
 
