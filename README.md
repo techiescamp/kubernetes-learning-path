@@ -162,6 +162,7 @@ If you do not have real world Kubernetes experience, it is better to read case s
 
 - [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
 - [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
+- [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)<sup>Blog</sup>
 
 # Learn Kubernetes Templating Tools
 
