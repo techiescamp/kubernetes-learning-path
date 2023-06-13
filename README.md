@@ -8,11 +8,11 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 # Kubernetes Certification Coupon
 
-🚀 If you are preparing for CKA, CKAD, CKS, or KCNA exam, **save 20% ($80 Savings)** today using code **DCUBE20** at https://kube.promo/devops. It is a limited-time offer.
+🚀 If you are preparing for CKA, CKAD, CKS, or KCNA exam, **save up to 40%** at https://kube.promo/devops. It is a limited-time offer. For maximum discount, choose certification bundles.
 
 # Kubernetes Learning Prerequisites
 
-If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first, because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
+If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
 
 - [Learn Container concepts](https://devopscube.com/what-is-a-container-and-how-does-it-work/)<sup>Complete Guide</sup>
 - [Learn Contianer Management Tool - Docker](https://www.freecodecamp.org/news/the-docker-handbook/) <sup>Complete Guide</sup>
