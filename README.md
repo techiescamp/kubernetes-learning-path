@@ -111,6 +111,9 @@ A resource refers to a specific API URL used to access an object. Resources are 
 
 ### Learn About Pod & Associated Resources
 
+- Begin by understanding what is a Pod
+- Understand the basic building blocks for Pod YAML
+
 <--In Progress-->
 
 ### Learn About Pod Dependent Objects
@@ -150,7 +153,7 @@ A resource refers to a specific API URL used to access an object. Resources are 
 
 # Real-World Kubernetes Case Studies
 
-If you do not have real world Kubernetes experience, it is better to read case studies of other companies using kubernetes.
+If you do not have real-world Kubernetes experience, it is better to read case studies of other companies using kubernetes.
 
 - [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)<sup>Official Case Studies</sup>
 - [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)<sup>Blog</sup>
@@ -167,18 +170,18 @@ If you do not have real world Kubernetes experience, it is better to read case s
 
 # Learn Kubernetes Templating Tools
 
-Helm and Kustomize are both tools that are used to manage Kubernetes manifests. They are similar in many ways, but have some key differences.
+Helm and Kustomize are both tools that are used to manage Kubernetes manifests. They are similar in many ways but have some key differences.
 
 Helm is a package manager for Kubernetes that allows users to easily install, manage, and upgrade applications on a Kubernetes cluster. It uses a concept called "charts" which are pre-configured sets of Kubernetes resources that can be easily deployed, upgraded, and rolled back.
 
 Kustomize, on the other hand, is a tool that allows users to customize and configure existing Kubernetes manifests. It uses a concept called "patches" which can be applied to existing manifests to customize them for different environments and use cases. Unlike Helm, Kustomize does not include built-in support for versioning and rollback, and does not have a concept of "packages" or "repositories".
 
 - [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)<sup>Hands-On Blog</sup>
-- [Getting started with Kuztomize](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/)<sup>Official Doc</sup>
+- [Getting started with Kuztomize](https://devopscube.com/kustomize-tutorial/)<sup>Hands-On Blog</sup>
 
 # Kubernetes Deployment Tools (GitOps Based)
 
-GitOps is a approach to Continuous Deployment that uses Git as a single source of truth for declarative infrastructure and application code. 
+GitOps is a technical practice that uses Git as a single source of truth for declarative infrastructure and application code. 
 
 - [Guide to GitOps](https://www.weave.works/technologies/gitops/)<sup>Official Doc</sup>
 
