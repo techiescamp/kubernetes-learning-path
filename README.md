@@ -32,11 +32,11 @@ If you want to learn Kubernetes, it's important to start with the basics. That m
 
 Learn Kubernetes Architecture
 =================
-The Following image shows the high level kubernetes architecture and how external services connect to the cluster.
+The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
 
 ![kubernetes-architecture](https://user-images.githubusercontent.com/5181260/214278898-43e50d8c-0fc3-4b5e-ae63-dc61ec8097a8.png)
 
-Refer the follwing documents to learn the Kubernetes Architecture.
+Refer to the following documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)<sup>Blog</sup>
 - [Kubernetes Garbage Collection](https://github.com/techiescamp/kubernetes-learning-path/blob/main/architecture/garbage-collection.md)<sup>Doc</sup>
@@ -46,7 +46,7 @@ Refer the follwing documents to learn the Kubernetes Architecture.
 Launching large clusters in the cloud can be costly. So utilize the available cloud credits to practice deploying clusters as if you work on a real project. All cloud platforms offer managed Kubernetes services.
 
 - [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)<sup>Cloud Platform</sup>
-- [EKS - AWS $300 free POC credits](https://aws.amazon.com/eks/)<sup>Cloud Platform</sup>
+- [EKS - AWS $300 free POC credits](https://pages.awscloud.com/GLOBAL_NCA_LN_ARRC-program-A300-2023.html)<sup>Cloud Platform</sup>
 - [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Cloud Platform</sup>
 - [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Cloud Platform</sup>
 - [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
@@ -54,7 +54,7 @@ Launching large clusters in the cloud can be costly. So utilize the available cl
  
 # Learn Kubernetes Cluster Setup & Administration
 
-As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environments. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking, and simulates a real-world project. 
+As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environments. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking and simulates a real-world project. 
 
 Additionally, mastering the configuration of multi-node clusters can be beneficial for interviews and building confidence in your abilities. The following are recommended ways to establish a Kubernetes cluster.
 
@@ -86,7 +86,7 @@ Refer the following document to learn about Kubeconfig File in detail.
 
 # Understand Kubernetes Objects And Resources
 
-In Kubernetes, an object is a persisted entity in the cluster that represents a desired state of the system. It is created and managed by the Kubernetes API server, and is stored in the etcd key-value store. Examples of Kubernetes objects include pods, services, and deployments.
+In Kubernetes, an object is a persisted entity in the cluster that represents a desired state of the system. It is created and managed by the Kubernetes API server and is stored in the etcd key-value store. Examples of Kubernetes objects include pods, services, and deployments.
 
 Here is an example of a Pod Object
 
@@ -109,7 +109,28 @@ A resource refers to a specific API URL used to access an object. Resources are 
 
 **Detailed Blog:** [Kubernetes Objects & Resources Explained](https://devopscube.com/kubernetes-objects-resources/)
 
-### Learn About Pod & Associated Resources
+# Learn About the Object YAML Structure
+
+Every object in Kubernetes is represented/created using a YAML file. 
+Kubernetes has many native objects (20+), however, every object YAML follows a hierarchical structure as shown below. 
+```
+apiVersion: <API version>
+kind: <Kind of object>
+metadata:
+  name:  <Name of the object>
+spec:
+  <Specification of the object>>
+```
+Here is what each section means.
+
+- **apiVersion:** Specifies the Kubernetes API version used for the object. 
+- **kind:** Defines the type of Kubernetes object being created or modified.
+- **metadata:** Contains information about the object.
+- **spec:** Defines the desired state of the object, including its configuration and behavior. Under spec, there could be many subfields depending upon the object type.
+
+The structure remains the same for all native Kubernetes objects. While learning about each object, you can check the hierarchy, and you will be able to relate.
+
+# Learn About Pod & Associated Resources
 
 - Begin by understanding what is a Pod
 - Understand the basic building blocks for Pod YAML
