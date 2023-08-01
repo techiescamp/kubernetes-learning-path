@@ -2,18 +2,44 @@
 
 If you are planning to use this repo for reference, please hit the star. Thanks!
 
-# Kubernetes Learning Roadmap
+## Kubernetes Learning Roadmap
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
-# Kubernetes Certification Coupon
+## Kubernetes Certification Coupon
 
 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save $80** today using code **DCUBE20** at https://kube.promo/devops. It is a limited-time offer from Linux Foundation.
 
 For the best savings, opt for the CKA + CKS bundle (**$210 Savings)**. Use code **DCUBE20** at https://kube.promo/bundle
 >Note: You have one year of validity to appear for the certification exam after registration
 
-# Kubernetes Learning Prerequisites
+## Table of Contents
+
+- [Kubernetes Learning Roadmap](#kubernetes-learning-roadmap)
+- [Kubernetes Certification Coupon](#kubernetes-certification-coupon)
+- [Kubernetes Learning Prerequisites](#kubernetes-learning-prerequisites)
+- [Learn Kubernetes Architecture](#learn-kubernetes-architecture)
+- [$1000+ Free Cloud Credits to Launch Clusters](#1000-free-cloud-credits-to-launch-clusters)
+- [Learn Kubernetes Cluster Setup & Administration](#learn-kubernetes-cluster-setup-administration)
+- [Understand KubeConfig File](#understand-kubeconfig-file)
+- [Understand Kubernetes Objects And Resources](#understand-kubernetes-objects-and-resources)
+- [Learn About the Object YAML Structure](#learn-about-the-object-yaml-structure)
+- [Learn About Pod & Associated Resources](#learn-about-pod-associated-resources)
+- [Learn About Pod Dependent Objects](#learn-about-pod-dependent-objects)
+- [Deploy End to End Application on Kubernetes](#deploy-end-to-end-application-on-kubernetes)
+- [Learn About Securing Kubernetes Cluster](#learn-about-securing-kubernetes-cluster)
+- [Learn About Kubernetes Operator Pattern](#learn-about-kubernetes-operator-pattern)
+- [Learn Important Kubernetes Configurations](#learn-important-kubernetes-configurations)
+- [Learn Kubernetes Best Practices](#learn-kubernetes-best-practices)
+- [Learn Kubernetes Logging & Monitoring](#learn-kubernetes-logging-monitoring)
+- [Learn Kubernetes Production Best Practices](#learn-kubernetes-production-best-practices)
+- [Real-World Kubernetes Case Studies](#real-world-kubernetes-case-studies)
+- [Kubernetes Failures/Learnings](#kubernetes-failureslearnings)
+- [Learn Kubernetes Templating Tools](#learn-kubernetes-templating-tools)
+- [Kubernetes Deployment Tools (GitOps Based)](#kubernetes-deployment-tools-gitops-based)
+
+
+## Kubernetes Learning Prerequisites
 
 If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
 
@@ -33,8 +59,8 @@ If you want to learn Kubernetes, it's important to start with the basics. That m
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-Learn Kubernetes Architecture
-=================
+## Learn Kubernetes Architecture
+
 The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
 
 ![kubernetes-architecture](https://user-images.githubusercontent.com/5181260/214278898-43e50d8c-0fc3-4b5e-ae63-dc61ec8097a8.png)
@@ -44,7 +70,7 @@ Refer to the following documents to learn the Kubernetes Architecture.
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)<sup>Blog</sup>
 - [Kubernetes Garbage Collection](https://github.com/techiescamp/kubernetes-learning-path/blob/main/architecture/garbage-collection.md)<sup>Doc</sup>
 
-# $1000+ Free Cloud Credits to Launch Clusters
+## $1000+ Free Cloud Credits to Launch Clusters
 
 Launching large clusters in the cloud can be costly. So utilize the available cloud credits to practice deploying clusters as if you work on a real project. All cloud platforms offer managed Kubernetes services.
 
@@ -55,7 +81,7 @@ Launching large clusters in the cloud can be costly. So utilize the available cl
 - [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
 - [AKS - Azure Cloud Hosting - $200 Free Credits](https://azure.microsoft.com/en-us/free/)<sup>Cloud Platform</sup>
  
-# Learn Kubernetes Cluster Setup & Administration
+## Learn Kubernetes Cluster Setup & Administration
 
 As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environments. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking and simulates a real-world project. 
 
@@ -75,7 +101,7 @@ Following are some of the important cluster administrative tasks
 - [etcd backup using etcdctl](https://devopscube.com/backup-etcd-restore-kubernetes/)<sup>Blog</sup>
 - [Run CIS benchmarks using kube-bench](https://devopscube.com/kube-bench-guide/)<sup>Blog</sup>
 
-# Understand KubeConfig File
+## Understand KubeConfig File
 
 As a DevOps engineer, it is important to become familiar with the Kubeconfig file. It is crucial for tasks such as setting up cluster authentication for CI/CD systems, providing cluster access to developers, and more.
 
@@ -87,7 +113,7 @@ Refer the following document to learn about Kubeconfig File in detail.
 
 - [Kubeconfig File Explained With Practical Examples](https://devopscube.com/kubernetes-kubeconfig-file/) <sup>Blog</sup>
 
-# Understand Kubernetes Objects And Resources
+## Understand Kubernetes Objects And Resources
 
 In Kubernetes, an object is a persisted entity in the cluster that represents a desired state of the system. It is created and managed by the Kubernetes API server and is stored in the etcd key-value store. Examples of Kubernetes objects include pods, services, and deployments.
 
@@ -112,7 +138,7 @@ A resource refers to a specific API URL used to access an object. Resources are 
 
 **Detailed Blog:** [Kubernetes Objects & Resources Explained](https://devopscube.com/kubernetes-objects-resources/)
 
-# Learn About the Object YAML Structure
+## Learn About the Object YAML Structure
 
 Every object in Kubernetes is represented/created using a YAML file. 
 Kubernetes has many native objects (20+), however, every object YAML follows a hierarchical structure as shown below. 
@@ -133,66 +159,42 @@ Here is what each section means.
 
 The structure remains the same for all native Kubernetes objects. While learning about each object, you can check the hierarchy, and you will be able to relate.
 
-# Learn About Pod & Associated Resources
+## Learn About Pod & Associated Resources
 
 - Begin by understanding what is a Pod
 - Understand the basic building blocks for Pod YAML
 
 <--In Progress-->
 
-### Learn About Pod Dependent Objects
+## Learn About Pod Dependent Objects
 
 <--In Progress-->
 
-### Deploy End to End Application on Kubernetes
+## Deploy End to End Application on Kubernetes
 
 <--In Progress-->
 
-### Learn About Securing Kubernetes Cluster
+## Learn About Securing Kubernetes Cluster
 
 <--In Progress-->
 
-### Learn About Kubernetes Operator Pattern
+## Learn About Kubernetes Operator Pattern
 
 <--In Progress-->
 
-### Learn Important Kubernetes Configurations
+## Learn Important Kubernetes Configurations
 
 <--In Progress-->
 
-### Learn Kubernetes Best Practices
+## Learn Kubernetes Best Practices
 
 <--In Progress-->
 
-### Learn Kubernetes Logging & Monitoring
+## Learn Kubernetes Logging & Monitoring
 
 <--In Progress-->
 
-# Learn Kubernetes Production Best Practices
-
-- Production Readiness Checklist
-- [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
-- [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
-- [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
-
-# Real-World Kubernetes Case Studies
-
-If you do not have real-world Kubernetes experience, it is better to read case studies of other companies using kubernetes.
-
-- [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)<sup>Official Case Studies</sup>
-- [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)<sup>Blog</sup>
-- [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)<sup>Blog</sup>
-- [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)<sup>Blog</sup>
-- [Scaling 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks)<sup>Blog</sup>
-- [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)<sup>Blog</sup>
-
-# Kubernetes Failures/Learnings
-
-- [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
-- [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
-- [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)<sup>Blog</sup>
-
-# Learn Kubernetes Templating Tools
+## Learn Kubernetes Templating Tools
 
 Helm and Kustomize are both tools that are used to manage Kubernetes manifests. They are similar in many ways but have some key differences.
 
@@ -203,17 +205,39 @@ Kustomize, on the other hand, is a tool that allows users to customize and confi
 - [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)<sup>Hands-On Blog</sup>
 - [Getting started with Kuztomize](https://devopscube.com/kustomize-tutorial/)<sup>Hands-On Blog</sup>
 
-# Kubernetes Deployment Tools (GitOps Based)
+## Kubernetes Deployment Tools (GitOps Based)
 
 GitOps is a technical practice that uses Git as a single source of truth for declarative infrastructure and application code. 
 
 - [Guide to GitOps](https://www.weave.works/technologies/gitops/)<sup>Official Doc</sup>
 
-Some popular GitOps based tools for deploying applications to Kubernetes clusters are:
+Some popular GitOps-based tools for deploying applications to Kubernetes clusters are:
 
 - [Argo CD](https://argo-cd.readthedocs.io/en/stable/)<sup>Official Doc</sup>
 - [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/)<sup>Official Doc</sup>
 - [FluxCD](https://fluxcd.io/)<sup>Official Doc</sup>
 - [JenkinsX](https://jenkins-x.io/)<sup>Official Doc</sup>
 
-  <--In Progress-->
+## Learn Kubernetes Production Best Practices
+
+- Production Readiness Checklist
+- [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
+- [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
+- [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
+
+## Real-World Kubernetes Case Studies
+
+If you do not have real-world Kubernetes experience, it is better to read case studies of other companies using kubernetes.
+
+- [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)<sup>Official Case Studies</sup>
+- [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)<sup>Blog</sup>
+- [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)<sup>Blog</sup>
+- [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)<sup>Blog</sup>
+- [Scaling 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks)<sup>Blog</sup>
+- [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)<sup>Blog</sup>
+
+## Kubernetes Failures/Learnings
+
+- [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
+- [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
+- [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)<sup>Blog</sup>
