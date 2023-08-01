@@ -220,7 +220,7 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 
 ## Learn Kubernetes Production Best Practices
 
-- Production Readiness Checklist
+- [Production Readiness Checklist](https://learnk8s.io/production-best-practices)<sup>Blog</sup>
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
 - [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
 - [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
