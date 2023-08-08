@@ -161,8 +161,7 @@ The structure remains the same for all native Kubernetes objects. While learning
 
 ## Learn About Pod & Associated Resources
 
-- Begin by understanding what is a Pod
-- Understand the basic building blocks for Pod YAML
+- [Kubernetes Pod Explained](https://devopscube.com/kubernetes-pod/) <sup>Blog</sup>
 
 <--In Progress-->
 
