@@ -164,6 +164,7 @@ The structure remains the same for all native Kubernetes objects. While learning
 ## Learn About Pod & Associated Resources
 
 - [Kubernetes Pod Explained](https://devopscube.com/kubernetes-pod/) <sup>Blog</sup>
+- [Init Containers Explained](https://devopscube.com/kubernetes-init-containers/) <sup>Blog</sup>
 
 <--In Progress-->
 
