@@ -60,7 +60,7 @@ If you want to learn Kubernetes, it's important to start with the basics. That m
    - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
-## Learn Kubernetes Architecture
+## Kubernetes Architecture
 
 The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
 
@@ -82,7 +82,7 @@ Launching large clusters in the cloud can be costly. So utilize the available cl
 - [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
 - [AKS - Azure Cloud Hosting - $200 Free Credits](https://azure.microsoft.com/en-us/free/)<sup>Cloud Platform</sup>
  
-## Learn Kubernetes Cluster Setup & Administration
+## Kubernetes Cluster Setup & Administration
 
 As DevOps engineers, gaining a thorough understanding of each component and cluster configuration is crucial to work in production environments. Though there are various methods for deploying a Kubernetes cluster, it is advisable to learn how to set up multi-node clusters from scratch. This allows you to gain knowledge on concepts such as High Availability, Scaling, and Networking and simulates a real-world project. 
 
@@ -110,7 +110,7 @@ A Kubeconfig file is a YAML file that stores information and credentials for con
 
 The Kubeconfig file can be used to store information for multiple clusters and users, allowing users to switch between different clusters and contexts easily. It is an important tool for managing access to and interacting with Kubernetes clusters.
 
-Refer the following document to learn about Kubeconfig File in detail.
+Refer to the following document to learn about the Kubeconfig File in detail.
 
 - [Kubeconfig File Explained With Practical Examples](https://devopscube.com/kubernetes-kubeconfig-file/) <sup>Blog</sup>
 
@@ -160,7 +160,7 @@ Here is what each section means.
 
 The structure remains the same for all native Kubernetes objects. While learning about each object, you can check the hierarchy, and you will be able to relate.
 
-## Learn About Pod & Associated Resources
+## Pod & Associated Resources
 
 - [Kubernetes Pod Explained](https://devopscube.com/kubernetes-pod/) <sup>Blog</sup>
 - [multi-container pods](https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/)<sup>Blog</sup>
