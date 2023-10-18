@@ -156,11 +156,13 @@ Here is what each section means.
 - **apiVersion:** Specifies the Kubernetes API version used for the object. 
 - **kind:** Defines the type of Kubernetes object being created or modified.
 - **metadata:** Contains information about the object.
-- **spec:** Defines the desired state of the object, including its configuration and behavior. Under spec, there could be many subfields depending upon the object type.
+- **spec:** Defines the desired state of the object, including its configuration and behavior. Under spec, there could be many subfields depending on the object type.
 
 The structure remains the same for all native Kubernetes objects. While learning about each object, you can check the hierarchy, and you will be able to relate.
 
-## Pod & Associated Resources
+## Learn All Pod Concepts & Features 
+
+All the essential concepts in Kubernetes center around the Pod. Understanding Pods in detail, along with their supported features, is crucial for anyone working with Kubernetes because many other objects in Kubernetes are built around them. Below are comprehensive guides that delve into various aspects of the Pod with real-world practical examples.
 
 - [Kubernetes Pod Explained](https://devopscube.com/kubernetes-pod/) <sup>Blog</sup>
 - [multi-container pods](https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/)<sup>Blog</sup>
@@ -170,11 +172,41 @@ The structure remains the same for all native Kubernetes objects. While learning
 - [Pod Quality or Service - QoS](https://techiescamp.com/kubernetes-pod-qos/)<sup>Blog</sup>
 - [Troubleshoot Pod](https://devopscube.com/troubleshoot-kubernetes-pods/)<sup>Blog</sup>
 - [Container Lifecyle Hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/)<sup>Official Doc</sup>
+- [Pod Disruption Budget](https://cast.ai/blog/pod-disruption-budgets-in-your-deployment/)<sup>Blog</sup>
+- [Pod Affinity/Anti-Affinity](https://www.densify.com/kubernetes-autoscaling/kubernetes-affinity/)<sup>Blog</sup>
+- [Pod Labels & Selectors](https://www.split.io/blog/kubernetes-labels-best-practices/)<sup>Blog</sup>
+
+In the topics above, we've covered all the core concepts of Pods that are used in production-level implementations. You should practice these concepts hands-on. Once you have a solid practical understanding of Pods, you can move on to learning about objects that depend on Pods.
 
 
 ## Learn About Pod Dependent Objects
 
-<--In Progress-->
+- Deployments: They manage the desired state for Pods. If you want multiple copies of a Pod, Deployments make it easy.
+
+- ReplicaSets: These are similar to Deployments but offer fewer features. They ensure that a certain number of identical Pods are running.
+
+- ConfigMaps and Secrets: These don't manage Pods but can be used by Pods for configuration and secrets.
+
+## Learn About Services
+
+Applications deployed on Pods using deployments may need to be accessed either internally within the cluster by other services or externally from outside the cluster. The feature that facilitates this access to Pods is known as Services in Kubernetes. Services provide a stable IP address and DNS name, enabling seamless communication and load balancing among Pods, regardless of their lifecycle changes. This ensures that the network connectivity to applications remains consistent and reliable.
+
+
+## Other Key Objects
+
+- StatefulSets: These are used for workloads that need stable network IDs and storage, like databases.
+
+- DaemonSets: These ensure that each node in the cluster runs a copy of a Pod, useful for node-level tasks like monitoring.
+
+- Jobs: These are used for one-off tasks that run to completion.
+
+- CronJobs: These are like Jobs but run on a schedule, like a cron task in Linux.
+
+- Services: These don't manage Pods but are closely related. They provide a stable network endpoint for Pods.
+
+- Ingress Controllers: While not directly dependent, they work closely with Pods to manage external access to services.
+
+
 
 ## Deploy End to End Application on Kubernetes
 
