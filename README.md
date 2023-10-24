@@ -188,6 +188,8 @@ Makes sure a specific number of pod replicas are running at all times. If a pod 
 
 **Use Case:** Good for stateless applications where you need multiple identical pods.
 
+**Detailed Blog:** [Replicaset Guide](https://sysdig.com/learn-cloud-native/kubernetes-101/kubernetes-replicasets-overview/)
+
 ---
 
 ### 2. Deployment
@@ -196,6 +198,8 @@ Manages ReplicaSets and allows for easy updates and rollbacks. It also scales th
 
 **Use Case:** Useful for stateless applications and when you need to update or rollback easily.
 
+**Detailed Blog:** [Deployment Explained](https://codefresh.io/learn/kubernetes-deployment/)
+
 ---
 
 ### 3. StatefulSet
@@ -203,6 +207,8 @@ Manages ReplicaSets and allows for easy updates and rollbacks. It also scales th
 Like a Deployment, but for stateful applications. It gives each pod a unique identity.
 
 **Use Case:** Good for databases and other stateful applications.
+
+**Detailed Blog:** [Statefulset Explained](https://loft.sh/blog/kubernetes-statefulset-examples-and-best-practices/)
 
 ---
 
