@@ -181,11 +181,75 @@ In the topics above, we've covered all the core concepts of Pods that are used i
 
 ## Learn About Pod Dependent Objects
 
-- Deployments: They manage the desired state for Pods. If you want multiple copies of a Pod, Deployments make it easy.
+### 1. ReplicaSet
+Makes sure a specific number of pod replicas are running at all times. If a pod crashes, the ReplicaSet starts a new one.
+**Use Case:** Good for stateless applications where you need multiple identical pods.
 
-- ReplicaSets: These are similar to Deployments but offer fewer features. They ensure that a certain number of identical Pods are running.
+---
 
-- ConfigMaps and Secrets: These don't manage Pods but can be used by Pods for configuration and secrets.
+### 2. Deployment
+
+Manages ReplicaSets and allows for easy updates and rollbacks. It also scales the number of pod replicas.
+**Use Case:** Useful for stateless applications and when you need to update or rollback easily.
+
+#### ReplicaSet vs Deployment
+
+| Feature               | ReplicaSet                                                  | Deployment                                              |
+|----------------------|-------------------------------------------------------------|---------------------------------------------------------|
+| **Purpose**           | Ensures a specific number of pod replicas are running       | Manages ReplicaSets and allows for updates and rollbacks |
+| **Use Case**          | Stateless applications with multiple identical pods         | Stateless applications, easy updates, and rollbacks     |
+| **Scaling**           | Manually scale the number of replicas                       | Auto-scaling and manual scaling supported                |
+| **Updates**           | No built-in update mechanism                                | Supports rolling updates                                |
+| **Rollbacks**         | No built-in rollback mechanism                              | Supports rollbacks                                      |
+| **Versioning**        | Does not keep track of versions                             | Keeps track of versions for rollback                     |
+| **Configuration**     | Less complex, fewer configurations                          | More complex, additional configurations                  |
+| **Identity**          | Pods have no unique identity                                | Pods have no unique identity                            |
+| **Management**        | Lower-level, more manual                                    | Higher-level, more automated                            |
+
+
+---
+
+### 3. StatefulSet
+
+Like a Deployment, but for stateful applications. It gives each pod a unique identity.
+**Use Case:** Good for databases and other stateful applications.
+
+#### Deployment vs StatefulSet
+
+| Feature               | Deployment                                              | StatefulSet                                             |
+|----------------------|---------------------------------------------------------|---------------------------------------------------------|
+| **Purpose**           | Manages ReplicaSets and allows for updates and rollbacks | Manages stateful applications with unique pod identities |
+| **Use Case**          | Stateless applications, easy updates, and rollbacks     | Databases and other stateful applications               |
+| **Scaling**           | Auto-scaling and manual scaling supported                | Manual scaling supported                                |
+| **Updates**           | Supports rolling updates                                | Supports rolling updates, but more carefully            |
+| **Rollbacks**         | Supports rollbacks                                      | Limited rollback support                                |
+| **Versioning**        | Keeps track of versions for rollback                     | Usually keeps track of data versions                    |
+| **Configuration**     | More complex, additional configurations                  | Complex, with stateful configurations                   |
+| **Identity**          | Pods have no unique identity                            | Pods have unique, stable identities                      |
+| **Management**        | Higher-level, more automated                            | Higher-level, but requires more manual intervention     |
+
+---
+
+### 4. DaemonSet
+
+Ensures that each node in the cluster runs a copy of a pod.
+**Use Case:** Useful for node monitoring or logging agents.
+- **Detailed Blog:** [Daemonset Explained](https://devopscube.com/kubernetes-daemonset/)
+
+---
+
+### 5. Job
+
+Creates one or more pods and ensures that a specified number of them are completed successfully.
+**Use Case:** Good for batch processing tasks.
+
+---
+
+### 6. CronJob
+
+Like a Job, but runs at specific times or intervals.
+**Use Case:** Useful for scheduled tasks like backups.
+
 
 ## Learn About Services
 
