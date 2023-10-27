@@ -242,26 +242,46 @@ Like a Job, but runs at specific times or intervals.
 
 ## Learn About Services
 
-Applications deployed on Pods using deployments may need to be accessed either internally within the cluster by other services or externally from outside the cluster. The feature that facilitates this access to Pods is known as Services in Kubernetes. Services provide a stable IP address and DNS name, enabling seamless communication and load balancing among Pods, regardless of their lifecycle changes. This ensures that the network connectivity to applications remains consistent and reliable.
+Applications deployed on Pods using deployments may need to be accessed either internally within the cluster by other services or externally from outside the cluster. 
+
+The feature that facilitates this access to Pods is known as Services in Kubernetes. 
+
+Services provide a stable IP address and DNS name, enabling seamless communication and load balancing among Pods, regardless of their lifecycle changes. This ensures that the network connectivity to applications remains consistent and reliable.
 
 
-## Other Key Objects
+**Detailed Blog:** [Kubernetes Service Explained Visually](https://medium.com/swlh/kubernetes-services-simply-visually-explained-2d84e58d70e5)
 
-- StatefulSets: These are used for workloads that need stable network IDs and storage, like databases.
+## Learn About Ingress & Ingress Controller
 
-- DaemonSets: These ensure that each node in the cluster runs a copy of a Pod, useful for node-level tasks like monitoring.
+Applications running inside Kubernetes require more than just a single endpoint. For instance, if you are running an e-commerce microservice application, you may need to route incoming requests to multiple backend services based on the request path. This is where the Ingress object comes into play.
 
-- Jobs: These are used for one-off tasks that run to completion.
+Ingress Acts like a "front door" to manage incoming traffic to multiple Kubernetes backend services. It Works at Layer 7 (Application Layer) of the OSI model, meaning it can understand HTTP and HTTPS.
 
-- CronJobs: These are like Jobs but run on a schedule, like a cron task in Linux.
+### Ingress
 
-- Services: These don't manage Pods but are closely related. They provide a stable network endpoint for Pods.
+Using an Ingress object you can define a set of rules for how traffic should be routed.  For example, you can set up rules to send traffic for "www.example.com/shop" to a "shop" service and "www.example.com/blog" to a "blog" service. The only work of ingress is to maintain the routing rules.
 
-- Ingress Controllers: While not directly dependent, they work closely with Pods to manage external access to services.
+**Detailed Blog:** [Kubernetes Ingress Explained](https://devopscube.com/kubernetes-ingress-tutorial/)
 
+### Ingress Controller
 
+An Ingress Controller is the part that actually makes the Ingress work. It is software  that runs inside your cluster and listens for changes to DNS/routing rules from the Ingress object.  The software could be Nginx, HAproxy, evvoy, etc. 
+
+**Detailed Blog:** [Ingress Controller Explained With Practical Example](https://devopscube.com/setup-ingress-kubernetes-nginx-controller/)
+
+**Ingress Controller Comparison**  [Comparison of Kubernetes Ingress controllers](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238)
+
+### Gateway API
+
+Gateway API is like an upgraded version of the Ingress system. It lets you define how traffic should be handled in a more detailed way. For example, you can specify different kinds of load balancing, or set up more complex routing rules.
+
+**Official Documentation:** [Gateway API Documentation](https://gateway-api.sigs.k8s.io/)
 
 ## Deploy End to End Application on Kubernetes
+
+<--In Progress-->
+
+## Learn Kubernetes Logging & Monitoring
 
 <--In Progress-->
 
@@ -270,18 +290,6 @@ Applications deployed on Pods using deployments may need to be accessed either i
 <--In Progress-->
 
 ## Learn About Kubernetes Operator Pattern
-
-<--In Progress-->
-
-## Learn Important Kubernetes Configurations
-
-<--In Progress-->
-
-## Learn Kubernetes Best Practices
-
-<--In Progress-->
-
-## Learn Kubernetes Logging & Monitoring
 
 <--In Progress-->
 
@@ -311,21 +319,30 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 
 ## Learn Kubernetes Production Best Practices
 
-- [Production Readiness Checklist](https://learnk8s.io/production-best-practices)<sup>Blog</sup>
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
-- [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
+- [Production Readiness Checklist](https://learnk8s.io/production-best-practices)<sup>Blog</sup>
 - [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
+
+## Understand Capacity Planning
+
+Capacity planning is a key aspect of Kubernetes implementation. It's essential for cost savings, performance, resource allocation, scalability, and optimization, among other things.
+
+- [Kubernetes Node Capacity](https://www.densify.com/kubernetes-autoscaling/kubernetes-node-capacity/) <sup>Blog</sup>
+- [Rightsize the requests](https://sysdig.com/blog/kubernetes-capacity-planning/)<sup>Blog</sup>
+- [Kubernetes Instance Calculator](https://learnk8s.io/kubernetes-instance-calculator)<sup>Tool & Doc</sup>
 
 ## Real-World Kubernetes Case Studies
 
 If you do not have real-world Kubernetes experience, it is better to read case studies of other companies using kubernetes.
 
 - [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)<sup>Official Case Studies</sup>
+- [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
 - [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)<sup>Blog</sup>
 - [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)<sup>Blog</sup>
 - [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)<sup>Blog</sup>
 - [Scaling 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks)<sup>Blog</sup>
 - [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)<sup>Blog</sup>
+- [EKS architecture to improve resiliency](https://aws.amazon.com/blogs/containers/life360s-journey-to-a-multi-cluster-amazon-eks-architecture-to-improve-resiliency/)<sup>Blog</sup>
 
 ## Kubernetes Failures/Learnings
 
