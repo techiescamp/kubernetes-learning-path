@@ -302,7 +302,18 @@ Securing a Kubernetes cluster is not just a good practice; it's a necessity.
 
 ## Learn About Kubernetes Operator Pattern
 
-<--In Progress-->
+The Kubernetes Operator pattern is a way to extend the capabilities of a Kubernetes cluster. It allows you to automate tasks that you would usually do manually.
+
+An Operator is basically a set of custom k8s resources and a custom controller. The custom resources define what you want to happen, like the settings or features you want for an application. The custom controller watches these resources and makes sure the actual state matches what you've defined.
+
+For example, let's say you have a database. Normally, you'd have to manually set it up, scale it, and handle backups. With an Operator, you can automate all these tasks. You just tell the Operator what you want by setting some custom resources, and it takes care of the rest.
+
+One real-world example is the Prometheus Operator. If you want to set up Prometheus for monitoring in your cluster, you'd usually have to do a lot of manual work. The Prometheus Operator automates this. You just set your desired settings in a custom resource, and the Operator sets up and manages Prometheus for you.
+
+**Kubernetes Operators:** [Kubernetes Operators Explained With Examples](https://blog.sparkfabrik.com/en/what-are-kubernetes-operators)
+
+**Framework:** [Operator Framework](https://operatorframework.io/)
+
 
 ## Learn Kubernetes Templating Tools
 
