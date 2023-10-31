@@ -13,33 +13,6 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 >Note: You have one year of validity to appear for the certification exam after registration
 
-
-## Table of Contents
-
-- [Kubernetes Learning Roadmap](#kubernetes-learning-roadmap)
-- [Kubernetes Certification Coupon](#kubernetes-certification-coupon)
-- [Kubernetes Learning Prerequisites](#kubernetes-learning-prerequisites)
-- [Learn Kubernetes Architecture](#learn-kubernetes-architecture)
-- [$1000+ Free Cloud Credits to Launch Clusters](#1000-free-cloud-credits-to-launch-clusters)
-- [Learn Kubernetes Cluster Setup & Administration](#learn-kubernetes-cluster-setup-administration)
-- [Understand KubeConfig File](#understand-kubeconfig-file)
-- [Understand Kubernetes Objects And Resources](#understand-kubernetes-objects-and-resources)
-- [Learn About the Object YAML Structure](#learn-about-the-object-yaml-structure)
-- [Learn About Pod & Associated Resources](#learn-about-pod-associated-resources)
-- [Learn About Pod Dependent Objects](#learn-about-pod-dependent-objects)
-- [Deploy End to End Application on Kubernetes](#deploy-end-to-end-application-on-kubernetes)
-- [Learn About Securing Kubernetes Cluster](#learn-about-securing-kubernetes-cluster)
-- [Learn About Kubernetes Operator Pattern](#learn-about-kubernetes-operator-pattern)
-- [Learn Important Kubernetes Configurations](#learn-important-kubernetes-configurations)
-- [Learn Kubernetes Best Practices](#learn-kubernetes-best-practices)
-- [Learn Kubernetes Logging & Monitoring](#learn-kubernetes-logging-monitoring)
-- [Learn Kubernetes Production Best Practices](#learn-kubernetes-production-best-practices)
-- [Real-World Kubernetes Case Studies](#real-world-kubernetes-case-studies)
-- [Kubernetes Failures/Learnings](#kubernetes-failureslearnings)
-- [Learn Kubernetes Templating Tools](#learn-kubernetes-templating-tools)
-- [Kubernetes Deployment Tools (GitOps Based)](#kubernetes-deployment-tools-gitops-based)
-
-
 ## Kubernetes Learning Prerequisites
 
 If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
