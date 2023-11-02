@@ -250,6 +250,16 @@ Gateway API is like an upgraded version of the Ingress system. It lets you defin
 
 **Official Documentation:** [Gateway API Documentation](https://gateway-api.sigs.k8s.io/)
 
+## Learn to Implement Network Policy
+
+Kubernetes Network Policy is like a set of rules for how pods can talk to each other. 
+
+**Detailed Doc:** [Kubernetes Network Policy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+
+**Useful Tool:** [Network Policy Editor](https://editor.networkpolicy.io/)
+
+**Examples**: [Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
+
 ## Deploy End to End Application on Kubernetes
 
 <--In Progress-->
