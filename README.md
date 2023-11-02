@@ -8,8 +8,8 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 ## Kubernetes Certification Coupon
 
-- 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 40%** today using code **SCARYTECHIES** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
-- For the best savings, opt for the CKA + CKS bundle (**$355 Savings)**. Use code **SCARYTECHIES** at https://kube.promo/bundle
+- 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 20%** today using code **DCUBE20** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+- For the best savings, opt for the CKA + CKS bundle (**$260 Savings)**. Use code **DCUBE20** at https://kube.promo/bundle
 
 >Note: You have one year of validity to appear for the certification exam after registration
 
@@ -344,3 +344,11 @@ If you do not have real-world Kubernetes experience, it is better to read case s
 - [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
 - [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
 - [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)<sup>Blog</sup>
+
+## AWS EKS Resources
+
+- [EKS Workshop](https://www.eksworkshop.com/)
+- [EKS Best Practices](https://aws.github.io/aws-eks-best-practices/)
+- [EKS Hardening](https://github.com/aws-samples/hardeneks)
+- [EKS Helm Charts](https://github.com/aws/eks-charts)
+- [EKS Blueprints](https://aws-quickstart.github.io/cdk-eks-blueprints/)
