@@ -277,28 +277,30 @@ Securing a Kubernetes cluster is not just a good practice; it's a necessity.
 - Compliance is another big factor, especially for businesses in regulated industries like healthcare or finance. You have to meet certain security standards, and a secure cluster is a step in that direction.
 - Lastly, there's the cost factor. Dealing with a security breach can be far more expensive than investing in security measures upfront.
 
-**Kubernetes CIS Benchmarking**: [CIS Benchmarking using Kube-bench](https://devopscube.com/kube-bench-guide/)
+**Kubernetes CIS Benchmarking**: [CIS Benchmarking using Kube-bench](https://devopscube.com/kube-bench-guide/)<sup>Blog</sup>
 
-**Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)
+**Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)<sup>Blog</sup>
 
-**Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)
+**Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)<sup>Blog</sup>
 
 ## Kubernetes Advanced Concepts
 
 Now that you have a basic understanding and practical knowledge of Kubernetes, you can begin exploring advanced Kubernetes concepts to further increase your knowledge.
 
-**Admission Controllers:** These are plugins that intercept requests to the Kubernetes API server before the persistence of the object, but after the request is authenticated and authorized.
+[**Admission Controllers:**](https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/)<sup>Official Blog</sup> These are plugins that intercept requests to the Kubernetes API server before the persistence of the object, but after the request is authenticated and authorized.
 
-**Admission Webhooks:** These are HTTP callbacks that receive admission requests and let you implement custom admission logic. There are two types of admission webhooks:
+[**Dynamic Admission Controller:**](https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/)<sup>Official Doc</sup> These are HTTP callbacks that receive admission requests and let you implement custom admission logic. There are two types of admission webhooks:
 
    - **Validating Admission Webhooks:** They can be used to perform validations on Kubernetes objects and reject requests that do not meet certain criteria.
-   - **Mutating Admission Webhooks:** They can be used to modify Kubernetes objects before they are stored (for example, to inject sidecar containers into pods).
+   - [**Mutating Admission Webhooks:**](https://medium.com/ibm-cloud/diving-into-kubernetes-mutatingadmissionwebhook-6ef3c5695f74)<sup>Blog</sup> They can be used to modify Kubernetes objects before they are stored (for example, to inject sidecar containers into pods).
 
-**Custom Resource Definitions (CRDs):** Extend Kubernetes API to create custom resources.
+[**Custom Resource Definitions (CRDs):**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)<sup>Official Doc</sup> Extend Kubernetes API to create custom resources.
 
-**Custom Controllers:** Implement custom behavior by watching Kubernetes API resources and taking action.
+[**Custom Resource & Controllers:**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)<sup>Official Doc</sup> Custom Resources in Kubernetes are like adding your own new types of objects. Just like you have built-in objects like Pods, Deployments, and Services, you can create your own. This is useful when you want to introduce new concepts or configurations that Kubernetes doesn't already know about.
 
-**Custom Schedulers:** By default, Kubernetes uses a default scheduler to assign pods to nodes. However, you might have specific scheduling requirements that aren't addressed by the default scheduler. In such cases, you can create a custom scheduler that can coexist with the default scheduler. You can then specify which scheduler to use for each pod. Custom schedulers allow you to implement complex, custom scheduling logic that might be unique to your application's needs.
+Custom Controllers are like the rules or instructions for what to do with your new custom resources. They watch for any changes to your custom resources and then make things happen in response.
+
+[**Custom Schedulers:**](https://banzaicloud.com/blog/k8s-custom-scheduler/)<sup>Blog</sup> By default, Kubernetes uses a default scheduler to assign pods to nodes. However, you might have specific scheduling requirements that aren't addressed by the default scheduler. In such cases, you can create a custom scheduler that can coexist with the default scheduler. You can then specify which scheduler to use for each pod. Custom schedulers allow you to implement complex, custom scheduling logic that might be unique to your application's needs.
 
 ## Extending Kubernetes
 
