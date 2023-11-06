@@ -283,7 +283,24 @@ Securing a Kubernetes cluster is not just a good practice; it's a necessity.
 
 **Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)
 
-## Learn About Kubernetes Operator Pattern
+## Kubernetes Advanced Concepts
+
+Now that you have a basic understanding and practical knowledge of Kubernetes, you can begin exploring advanced Kubernetes concepts to further increase your knowledge.
+
+**Admission Controllers:** These are plugins that intercept requests to the Kubernetes API server before the persistence of the object, but after the request is authenticated and authorized.
+
+**Admission Webhooks:** These are HTTP callbacks that receive admission requests and let you implement custom admission logic. There are two types of admission webhooks:
+
+   - **Validating Admission Webhooks:** They can be used to perform validations on Kubernetes objects and reject requests that do not meet certain criteria.
+   - **Mutating Admission Webhooks:** They can be used to modify Kubernetes objects before they are stored (for example, to inject sidecar containers into pods).
+
+**Custom Resource Definitions (CRDs):** Extend Kubernetes API to create custom resources.
+
+**Custom Controllers:** Implement custom behavior by watching Kubernetes API resources and taking action.
+
+**Custom Schedulers:** By default, Kubernetes uses a default scheduler to assign pods to nodes. However, you might have specific scheduling requirements that aren't addressed by the default scheduler. In such cases, you can create a custom scheduler that can coexist with the default scheduler. You can then specify which scheduler to use for each pod. Custom schedulers allow you to implement complex, custom scheduling logic that might be unique to your application's needs.
+
+## Extending Kubernetes
 
 The Kubernetes Operator pattern is a way to extend the capabilities of a Kubernetes cluster. It allows you to automate tasks that you would usually do manually.
 
@@ -295,7 +312,13 @@ One real-world example is the Prometheus Operator. If you want to set up Prometh
 
 **Kubernetes Operators:** [Kubernetes Operators Explained With Examples](https://blog.sparkfabrik.com/en/what-are-kubernetes-operators)
 
-**Framework:** [Operator Framework](https://operatorframework.io/)
+**Operator Framework:** [Operator Framework](https://operatorframework.io/)
+
+**Python Operator Framework** [Kopf](https://github.com/nolar/kopf)
+
+**CRD Framework** [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder)
+
+**Custom Admission Webhooks** [Simple Kubernetes Admission Webhook](https://slack.engineering/simple-kubernetes-webhook/)
 
 
 ## Learn Kubernetes Templating Tools
