@@ -65,7 +65,6 @@ Additionally, mastering the configuration of multi-node clusters can be benefici
 - [Kubeadm Cluster Setup](https://devopscube.com/setup-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
 - [Minikube Development Cluster ](https://devopscube.com/kubernetes-minikube-tutorial/)<sup>Blog</sup>
 - [Kind Development Cluster](https://kind.sigs.k8s.io/)<sup>Official Documentation</sup>
-- [Vagrant Automated Cluster](https://github.com/techiescamp/vagrant-kubeadm-kubernetes)<sup>Github</sup>
 
 Following are some of the important cluster administrative tasks
 
