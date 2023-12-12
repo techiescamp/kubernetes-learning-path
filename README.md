@@ -381,6 +381,7 @@ If you do not have real-world Kubernetes experience, it is better to read case s
 - [Scaling 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks)<sup>Blog</sup>
 - [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)<sup>Blog</sup>
 - [EKS architecture to improve resiliency](https://aws.amazon.com/blogs/containers/life360s-journey-to-a-multi-cluster-amazon-eks-architecture-to-improve-resiliency/)<sup>Blog</sup>
+- [Scaling Amazon EKS to thousands of nodes](https://aws.amazon.com/blogs/containers/mobileyes-journey-towards-scaling-amazon-eks-to-thousands-of-nodes/)<sup>Blog</sup>
 
 ## Kubernetes Failures/Learnings
 
