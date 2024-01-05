@@ -37,7 +37,7 @@ If you want to learn Kubernetes, it's important to start with the basics. That m
    - [SSL/TLS](https://www.cloudflare.com/en-gb/learning/ssl/how-does-ssl-work/)<sup>Blog</sup>
    - [Network Proxy Basics](https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server)<sup>Blog</sup>
    - [DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)<sup>Blog</sup>
-   - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup>
+   - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup> & [NFTables](https://www.linode.com/docs/guides/how-to-use-nftables/)<sup>Video</sup>
    - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
 
 ## Kubernetes Architecture
