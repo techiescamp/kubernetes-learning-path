@@ -10,9 +10,9 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
-- 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 35%** today using code **AWARD35** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+- 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save $80** today using code **DCUBE20** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-The following are the best bundles to **save Extra Discount** with code **AWARD35**
+The following are the best bundles to **save Extra Discount** with code **DCUBE20**
 
 - CKA + CKAD + CKS Exam bundle ($382 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
 - CKA + CKS Bundle ($280 Savings) [kube.promo/bundle](https://kube.promo/bundle)
@@ -48,7 +48,6 @@ The following image shows the high-level kubernetes architecture and how externa
 Refer to the following documents to learn the Kubernetes Architecture.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)<sup>Blog</sup>
-- [Kubernetes Garbage Collection](https://github.com/techiescamp/kubernetes-learning-path/blob/main/architecture/garbage-collection.md)<sup>Doc</sup>
 
 ## $1000+ Free Cloud Credits to Launch Clusters
 
