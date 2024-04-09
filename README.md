@@ -20,8 +20,8 @@ The following are the best bundles to **save Extra 25%** with code **COMBUNDLE25
 Use code **SCRIPT20** to save $326 with the following bundle.
 
 - CKA + CKAD + CKS Exam bundle ($326 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
-- KCSA + CKS Exam Bundle ($229 Savings) kube.promo/kcsa-cks
-- KCNA + KCSA Exam Bundle ($203 Savings) kube.promo/kcna-kcsa
+- KCSA + CKS Exam Bundle ($229 Savings) [kube.promo/kcsa-cks](https://kube.promo/kcsa-cks)
+- KCNA + KCSA Exam Bundle ($203 Savings) [kube.promo/kcna-kcsa](https://kube.promo/kcna-kcsa)
 
 >Note: You have one year of validity to appear for the certification exam after registration
 
