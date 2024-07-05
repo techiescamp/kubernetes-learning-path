@@ -84,7 +84,6 @@ Following are some of the important cluster administrative tasks
 - [Important Kubernetes Cluster Configurations](https://devopscube.com/kubernetes-cluster-configurations/)<sup>Blog</sup>
 - [Kubeadm Cluster Upgrade](https://devopscube.com/upgrade-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
 - [etcd backup using etcdctl](https://devopscube.com/backup-etcd-restore-kubernetes/)<sup>Blog</sup>
-- [Run CIS benchmarks using kube-bench](https://devopscube.com/kube-bench-guide/)<sup>Blog</sup>
 
 ## Understand KubeConfig File
 
