@@ -271,13 +271,11 @@ Kubernetes Network Policy is like a set of rules for how pods can talk to each o
 
 **Examples**: [Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
 
-## Deploy End to End Application on Kubernetes
-
-<--In Progress-->
-
 ## Learn Kubernetes Logging & Monitoring
 
-<--In Progress-->
+Logging is an important aspect of Kubernetes. 
+
+**Detailed Logging Guide:** [Kubernetes Logging](https://devopscube.com/kubernetes-logging-tutorial/)
 
 ## Learn About Securing Kubernetes Cluster
 
