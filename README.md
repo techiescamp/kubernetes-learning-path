@@ -260,11 +260,9 @@ Gateway API is like an upgraded version of the Ingress system. It lets you defin
 
 Kubernetes Network Policy is like a set of rules for how pods can talk to each other. 
 
-**Detailed Doc:** [Kubernetes Network Policy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
-
-**Useful Tool:** [Network Policy Editor](https://editor.networkpolicy.io/)
-
-**Examples**: [Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
+- **Detailed Doc:** [Kubernetes Network Policy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+- **Useful Tool:** [Network Policy Editor](https://editor.networkpolicy.io/)
+- **Examples**: [Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
 
 ## Learn Kubernetes Logging & Monitoring
 
@@ -281,11 +279,9 @@ Securing a Kubernetes cluster is not just a good practice; it's a necessity.
 - Compliance is another big factor, especially for businesses in regulated industries like healthcare or finance. You have to meet certain security standards, and a secure cluster is a step in that direction.
 - Lastly, there's the cost factor. Dealing with a security breach can be far more expensive than investing in security measures upfront.
 
-**Kubernetes CIS Benchmarking**: [CIS Benchmarking using Kube-bench](https://devopscube.com/kube-bench-guide/)<sup>Blog</sup>
-
-**Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)<sup>Blog</sup>
-
-**Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)<sup>Blog</sup>
+- **Kubernetes CIS Benchmarking**: [CIS Benchmarking using Kube-bench](https://devopscube.com/kube-bench-guide/)<sup>Blog</sup>
+- **Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)<sup>Blog</sup>
+- **Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)<sup>Blog</sup>
 
 ## Kubernetes Advanced Concepts
 
