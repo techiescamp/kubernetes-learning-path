@@ -6,15 +6,17 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
-## Kubernetes Certification Voucher (30% OFF) 🎉
+## Kubernetes Certification Voucher (40% OFF) 🎉
 
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
-🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 30%** today using code **30COMTECHIES** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+>Note: This offer expires very soon
 
-The following are the best bundles to **save upto 40% (up to $788)** with code **30COMTECHIES**
+🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 40%** today using code **K8S10YEARSCT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-- KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
+The following are the best bundles to **save upto 40% (up to $818)** with code **K8S10YEARSCT**
+
+- KCNA + KCSA + CKA + CKAD + CKS ($818 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
 - CKA + CKAD + CKS Exam bundle ($528 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
 - CKA + CKS Bundle ($355 Savings) [kube.promo/bundle](https://kube.promo/bundle)
 - KCNA + CKA ( $288 Savings) [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
