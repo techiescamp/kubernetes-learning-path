@@ -362,6 +362,7 @@ Capacity planning is a key aspect of Kubernetes implementation. It's essential f
 - [Kubernetes Node Capacity](https://www.densify.com/kubernetes-autoscaling/kubernetes-node-capacity/) <sup>Blog</sup>
 - [Rightsize the requests](https://sysdig.com/blog/kubernetes-capacity-planning/)<sup>Blog</sup>
 - [Kubernetes Instance Calculator](https://learnk8s.io/kubernetes-instance-calculator)<sup>Tool & Doc</sup>
+- [Saving Millions of Dollars by Bin-Packing ClickHouse Pods in AWS EKS](https://clickhouse.com/blog/packing-kubernetes-pods-more-efficiently-saving-money)<sup>Blog</sup>
 
 ## Real-World Kubernetes Case Studies
 
@@ -376,6 +377,7 @@ If you do not have real-world Kubernetes experience, it is better to read case s
 - [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)<sup>Blog</sup>
 - [EKS architecture to improve resiliency](https://aws.amazon.com/blogs/containers/life360s-journey-to-a-multi-cluster-amazon-eks-architecture-to-improve-resiliency/)<sup>Blog</sup>
 - [Scaling Amazon EKS to thousands of nodes](https://aws.amazon.com/blogs/containers/mobileyes-journey-towards-scaling-amazon-eks-to-thousands-of-nodes/)<sup>Blog</sup>
+
 
 ## Kubernetes Failures/Learnings
 
