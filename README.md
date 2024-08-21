@@ -332,6 +332,7 @@ Kustomize, on the other hand, is a tool that allows users to customize and confi
 
 - [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)<sup>Hands-On Blog</sup>
 - [Kuztomize Crash Course](https://techiescamp.com/courses/kubernetes-kustomize/)<sup>Free Course</sup>
+- [Making the most out of Helm templates](https://blog.palark.com/advanced-helm-templating/)<sup>Blog</sup>
 
 ## Kubernetes Deployment Tools (GitOps Based)
 
