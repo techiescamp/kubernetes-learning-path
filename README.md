@@ -10,9 +10,9 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
-🚀 CKA, CKAD, CKS, or KCNA exam aspirants can save 40% today using code SUMMERENDS2024CT at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+🚀 CKA, CKAD, CKS, or KCNA exam aspirants can save 40% today using code **SUMMERENDS2024CT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-The following are the best bundles to save 50% (up to $800 ) with code SUMMERENDS2024CT
+The following are the best bundles to save 50% (up to $800 ) with code **SUMMERENDS2024CT**
 
 - KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
 - CKA + CKAD + CKS Exam bundle ($528 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
