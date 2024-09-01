@@ -48,9 +48,9 @@ If you want to learn Kubernetes, it's important to start with the basics. That m
 
 The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
 
-![kubernetes-architecture](https://user-images.githubusercontent.com/5181260/214278898-43e50d8c-0fc3-4b5e-ae63-dc61ec8097a8.png)
+![02-k8s-architecture-github](https://github.com/user-attachments/assets/6b514c13-56ba-4474-83c8-469942fc43f6)
 
-Refer to the following documents to learn the Kubernetes Architecture.
+Refer to the following documents to learn about every kubernetes component in detail.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)<sup>Blog</sup>
 
