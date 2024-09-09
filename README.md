@@ -27,7 +27,7 @@ The following are the best bundles to **save 40% (up to $788)** with code **30CO
 
 If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
 
-- [Learn Container concepts & Container Management Tool- Docker/Podman](https://techiescamp.com/courses/learn-container-basics-docker-podman/)<sup>Free Course</sup>
+- [Learn Container concepts & Container Management Tool- Docker/Podman](https://techiescamp.com/p/container-fundamentals-course)<sup>Free Course</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
 - [Understand Authentication & Authorization](https://www.okta.com/identity-101/authentication-vs-authorization/) <sup>Blog</sup>
 - [Learn Basics of Key Value Store](https://redis.com/nosql/key-value-databases/)<sup>Blog</sup>
