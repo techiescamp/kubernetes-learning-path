@@ -14,12 +14,12 @@ As part of our commitment to helping the DevOps community save money on Kubernet
 
 The following are the best bundles to save 50% (up to $800 ) with code OSSEU24ICYMI
 
-- KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): kube.promo/kubestronaut
-- CKA + CKAD + CKS Exam bundle ($528 Savings): kube.promo/k8s-bundle
-- CKA + CKS Bundle ($355 Savings) kube.promo/bundle
-- KCNA + CKA ( $288 Savings) kube.promo/kcka-bundle
-- KCSA + CKS Exam Bundle ($229 Savings) kube.promo/kcsa-cks
-- KCNA + KCSA Exam Bundle ($203 Savings) kube.promo/kcna-kcsa
+- KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
+- CKA + CKAD + CKS Exam bundle ($528 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
+- CKA + CKS Bundle ($355 Savings) [kube.promo/bundle](https://kube.promo/bundle)
+- KCNA + CKA ( $288 Savings) [kube.promo/kcka-bundle](https://kube.promo/kcka-bundle)
+- KCSA + CKS Exam Bundle ($229 Savings) [kube.promo/kcsa-cks](https://kube.promo/kcsa-cks)
+- KCNA + KCSA Exam Bundle ($203 Savings) [kube.promo/kcna-kcsa](https://kube.promo/kcna-kcsa)
 
 > Note: You have one year of validity to appear for the certification exam after registration
 
