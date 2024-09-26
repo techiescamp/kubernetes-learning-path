@@ -148,7 +148,7 @@ All the essential concepts in Kubernetes center around the Pod. Understanding Po
 - [Init Containers Explained](https://devopscube.com/kubernetes-init-containers/) <sup>Blog</sup>
 - [Pod Lifecycle Phases](https://devopscube.com/kubernetes-pod-lifecycle/)<sup>Blog</sup>
 - [Pod Priority, PriorityClass, and Preemption](https://devopscube.com/pod-priorityclass-preemption/)<sup>Blog</sup>
-- [Pod Quality or Service - QoS](https://techiescamp.com/kubernetes-pod-qos/)<sup>Blog</sup>
+- [Pod Quality or Service - QoS](https://blog.techiescamp.com/kubernetes-pod-qos/)<sup>Blog</sup>
 - [Troubleshoot Pod](https://devopscube.com/troubleshoot-kubernetes-pods/)<sup>Blog</sup>
 - [Container Lifecyle Hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/)<sup>Official Doc</sup>
 - [Pod Disruption Budget](https://cast.ai/blog/pod-disruption-budgets-in-your-deployment/)<sup>Blog</sup>
@@ -332,7 +332,7 @@ Helm is a package manager for Kubernetes that allows users to easily install, ma
 Kustomize, on the other hand, is a tool that allows users to customize and configure existing Kubernetes manifests. It uses a concept called "patches" which can be applied to existing manifests to customize them for different environments and use cases. Unlike Helm, Kustomize does not include built-in support for versioning and rollback, and does not have a concept of "packages" or "repositories".
 
 - [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)<sup>Hands-On Blog</sup>
-- [Kuztomize Crash Course](https://techiescamp.com/courses/kubernetes-kustomize/)<sup>Free Course</sup>
+- [Kuztomize Crash Course](https://techiescamp.com/p/kubernetes-kustomize-crash-course)<sup>Free Course</sup>
 - [Making the most out of Helm templates](https://blog.palark.com/advanced-helm-templating/)<sup>Blog</sup>
 
 ## Kubernetes Deployment Tools (GitOps Based)
