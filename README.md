@@ -23,7 +23,6 @@ The following are the best bundles to save 50% (up to $800 ) with code **OCTPRIM
 
 > Note: You have one year of validity to appear for the certification exam after registration
 
-
 ## Kubernetes Learning Prerequisites
 
 If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
