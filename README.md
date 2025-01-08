@@ -6,6 +6,8 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
+> If you Looking for an organized way to learn Kubernetes and prepare for the CKA exam? Check out our [Complete CKA Certification Course](https://techiescamp.com/p/cka-complete-prep-course-practice-tests). It includes illustrations, hands-on exercises, real-world examples, and dedicated Discord support. Use code **DCUBE25** to get 25% OFF! .
+
 ## Kubernetes Certification Voucher (UpTo 35% OFF) 🎉
 
 >**Important Note:** Kubernetes certification prices are increasing this month. So make use of this offer to lockin the savings.
