@@ -304,7 +304,7 @@ Now that you have a basic understanding and practical knowledge of Kubernetes, y
 
 Custom Controllers are like the rules or instructions for what to do with your new custom resources. They watch for any changes to your custom resources and then make things happen in response.
 
-[**Custom Schedulers:**](https://banzaicloud.com/blog/k8s-custom-scheduler/)<sup>Blog</sup> By default, Kubernetes uses a default scheduler to assign pods to nodes. However, you might have specific scheduling requirements that aren't addressed by the default scheduler. In such cases, you can create a custom scheduler that can coexist with the default scheduler. You can then specify which scheduler to use for each pod. Custom schedulers allow you to implement complex, custom scheduling logic that might be unique to your application's needs.
+[**Custom Schedulers:**](https://blog.techiescamp.com/docs/kubernetes-custom-schedulers/)<sup>Blog</sup> By default, Kubernetes uses a default scheduler to assign pods to nodes. However, you might have specific scheduling requirements that aren't addressed by the default scheduler. In such cases, you can create a custom scheduler that can coexist with the default scheduler. You can then specify which scheduler to use for each pod. Custom schedulers allow you to implement complex, custom scheduling logic that might be unique to your application's needs.
 
 ## Extending Kubernetes
 
