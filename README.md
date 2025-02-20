@@ -14,7 +14,7 @@ As part of our commitment to helping the DevOps community save money on Kubernet
 
 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 30%** today using code **DCUBE30** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-The following are the best bundles to **save 50%** with code **FEB25BUNTECHIES**
+The following are the best bundles to **save 55%** with code **FEB25BUNTECHIES**
 
 - KCNA + KCSA + CKA + CKAD + CKS ($1685 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)  
 - CKA + CKAD + CKS Exam bundle ($712 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)  
