@@ -8,20 +8,20 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 > If you Looking for an organized way to learn Kubernetes and prepare for the CKA exam? Check out our [Complete CKA Certification Course](https://techiescamp.com/p/cka-complete-prep-course-practice-tests). It includes illustrations, hands-on exercises, real-world examples, and dedicated Discord support. Use code **DCUBE25** to get 25% OFF! .
 
-## Kubernetes Certification Voucher (UpTo 55.15% OFF) 🎉
+## Kubernetes Certification Voucher (UpTo 38% OFF) 🎉
 
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 30%** today using code **DCUBE30** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-The following are the best bundles to **save 55%** with code **FEB25BUNTECHIES**
+The following are the best bundles to **save 38% (up to $788)** with code **DCUBE30**
 
-- KCNA + KCSA + CKA + CKAD + CKS ($1685 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)  
-- CKA + CKAD + CKS Exam bundle ($712 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)  
-- CKA + CKS Bundle ($477 Savings): [kube.promo/bundle](https://kube.promo/bundle)  
-- KCNA + CKA ($372 Savings): [kube.promo/kcna-cka](https://kube.promo/kcna-cka)  
-- KCSA + CKS Exam Bundle ($372 Savings): [kube.promo/kcsa-cks](https://kube.promo/kcsa-cks)  
-- KCNA + KCSA Exam Bundle ($287 Savings): [kube.promo/kcna-kcsa](https://kube.promo/kcna-kcsa)  
+- KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
+- CKA + CKAD + CKS Exam bundle ($528 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
+- CKA + CKS Bundle ($355 Savings) [kube.promo/bundle](https://kube.promo/bundle)
+- KCNA + CKA ( $288 Savings) [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
+- KCSA + CKS Exam Bundle ($229 Savings) [kube.promo/kcsa-cks](https://kube.promo/kcsa-cks)
+- KCNA + KCSA Exam Bundle ($203 Savings) [kube.promo/kcna-kcsa](https://kube.promo/kcna-kcsa)
 
 >Note: You have one year of validity to appear for the certification exam after registration.
 
