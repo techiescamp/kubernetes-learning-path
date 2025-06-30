@@ -356,7 +356,7 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 ## Learn Kubernetes Production Best Practices
 
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
-- [Production Readiness Checklist](https://learnk8s.io/production-best-practices)<sup>Blog</sup>
+- [Production Readiness Checklist](https://learnkube.com/production-best-practices)<sup>Blog</sup>
 - [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
 
 ## Understand Capacity Planning
@@ -365,7 +365,7 @@ Capacity planning is a key aspect of Kubernetes implementation. It's essential f
 
 - [Kubernetes Node Capacity](https://www.densify.com/kubernetes-autoscaling/kubernetes-node-capacity/) <sup>Blog</sup>
 - [Rightsize the requests](https://sysdig.com/blog/kubernetes-capacity-planning/)<sup>Blog</sup>
-- [Kubernetes Instance Calculator](https://learnk8s.io/kubernetes-instance-calculator)<sup>Tool & Doc</sup>
+- [Kubernetes Instance Calculator](https://learnkube.com/kubernetes-instance-calculator)<sup>Tool & Doc</sup>
 - [Saving Millions of Dollars by Bin-Packing ClickHouse Pods in AWS EKS](https://clickhouse.com/blog/packing-kubernetes-pods-more-efficiently-saving-money)<sup>Blog</sup>
 
 ## Real-World Kubernetes Case Studies
