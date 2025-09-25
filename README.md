@@ -41,7 +41,8 @@ That means brushing up on your IT fundamentals first because Kubernetes builds o
 
 Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals. Take some time to study them before diving into Kubernetes!
 
-<img src="https://github.com/user-attachments/assets/5deb492e-a7a7-4a57-bb85-4cf3ec5c34ee" alt="01-k8s-prerequites-1" width="700" />
+<img src="https://github.com/user-attachments/assets/b489c341-a1ca-4b47-bea9-b0c88f3b8b12" width="700" />
+
 
 Here are the resources to brush up the core fundamentals to master kubernetes.
 
