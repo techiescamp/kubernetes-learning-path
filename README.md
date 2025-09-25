@@ -18,14 +18,20 @@ The following are the best bundles to **save upto 65%** with code **SEPT25BUN50*
 - KCNA + KCSA + CKA + CKAD + CKS (55% Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
 - CKA + CKAD + CKS Exam bundle (47% Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
 - CKA + CKS Bundle (45% Savings) [kube.promo/bundle](https://kube.promo/bundle)
-- KCNA + CKA (45% Savings) [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
-- KCSA + CKS Exam Bundle (45% Savings) [kube.promo/kcsa-cks](https://kube.promo/kcsa-cks)
-- KCNA + KCSA Exam Bundle (45% Savings) [kube.promo/kcna-kcsa](https://kube.promo/kcna-kcsa)
 
 > [!NOTE]
 >⌛ Act fast—this limited-time offer won’t be around much longer!
 
-> If you Looking for an organized way to learn Kubernetes and prepare for the CKA exam? Check out our [Complete CKA Certification Course](https://techiescamp.com/p/cka-complete-prep-course-practice-tests). It includes illustrations, hands-on exercises, real-world examples, and dedicated Discord support. Use code **DCUBE25** to get 25% OFF! .
+## Organized Kubernetes & CKA Learning
+
+If you Looking for an organized way to learn Kubernetes and prepare for the CKA exam with practice questions? 
+
+> Check out our [Complete CKA Certification Course](https://courses.devopscube.com/p/cka-complete-prep-course-practice-tests). 
+
+It includes illustrations, hands-on exercises, real-world examples, and dedicated Discord support. 
+
+> [!NOTE]
+>⌛ For a lmited time, use code **DCUBE30** to get 30% OFF today!
 
 ## Kubernetes Learning Prerequisites
 
