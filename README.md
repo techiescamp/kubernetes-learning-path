@@ -63,15 +63,13 @@ Here are the resources to brush up the core fundamentals to master kubernetes.
 
 ## Kubernetes Architecture
 
-The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6b514c13-56ba-4474-83c8-469942fc43f6" alt="01-k8s-prerequites-1" width="800" />
-</p>
-
 Refer to the following documents to learn about every kubernetes component in detail.
 
 - [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)<sup>Blog</sup>
+
+The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
+
+<img src="https://github.com/user-attachments/assets/2d363967-d0a9-47df-92d3-1959a400abd6" alt="01-k8s-prerequites-1" width="700" />
 
 ## $1000+ Free Cloud Credits to Launch Clusters
 
