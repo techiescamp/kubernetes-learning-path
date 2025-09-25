@@ -35,15 +35,15 @@ It includes illustrations, hands-on exercises, real-world examples, and dedicate
 
 ## Kubernetes Learning Prerequisites(Core IT Fundamentals)
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c549a87b-f22d-4305-870f-267fb063725f" alt="01-k8s-prerequites-1" width="700" />
-</p>
-
 If you want to learn Kubernetes, it is important to start with the basics. 
 
 That means brushing up on your IT fundamentals first because Kubernetes builds on those. 
 
 Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals. Take some time to study them before diving into Kubernetes!
+
+<img src="https://github.com/user-attachments/assets/5deb492e-a7a7-4a57-bb85-4cf3ec5c34ee" alt="01-k8s-prerequites-1" width="700" />
+
+Here are the resources to brush up the core fundamentals to master kubernetes.
 
 - [Learn Container concepts & Container Management Tool- Docker/Podman](https://techiescamp.com/p/container-fundamentals-course)<sup>Free Course</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
