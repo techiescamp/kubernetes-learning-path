@@ -33,9 +33,17 @@ It includes illustrations, hands-on exercises, real-world examples, and dedicate
 > [!NOTE]
 >⌛ For a lmited time, use code **DCUBE30** to get 30% OFF today!
 
-## Kubernetes Learning Prerequisites
+## Kubernetes Learning Prerequisites(Core IT Fundamentals)
 
-If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c549a87b-f22d-4305-870f-267fb063725f" alt="01-k8s-prerequites-1" width="700" />
+</p>
+
+If you want to learn Kubernetes, it is important to start with the basics. 
+
+That means brushing up on your IT fundamentals first because Kubernetes builds on those. 
+
+Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals. Take some time to study them before diving into Kubernetes!
 
 - [Learn Container concepts & Container Management Tool- Docker/Podman](https://techiescamp.com/p/container-fundamentals-course)<sup>Free Course</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
@@ -56,7 +64,9 @@ If you want to learn Kubernetes, it's important to start with the basics. That m
 
 The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
 
-![02-k8s-architecture-github](https://github.com/user-attachments/assets/6b514c13-56ba-4474-83c8-469942fc43f6)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6b514c13-56ba-4474-83c8-469942fc43f6" alt="01-k8s-prerequites-1" width="800" />
+</p>
 
 Refer to the following documents to learn about every kubernetes component in detail.
 
@@ -363,6 +373,10 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
 - [Production Readiness Checklist](https://learnkube.com/production-best-practices)<sup>Blog</sup>
 - [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e484987d-50ab-435c-907a-03e6e8f5d064" alt="01-k8s-prerequites-1" width="800" />
+</p>
 
 ## Understand Capacity Planning
 
