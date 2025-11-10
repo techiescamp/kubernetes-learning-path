@@ -11,9 +11,9 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
 > [!IMPORTANT]
-> 🚀  Kubernetes Certification aspirants can **save 40%** today using code **SPOOKY40CT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+> 🚀  Kubernetes Certification aspirants can **save 40%** today using code **40KUBE25CT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-The following are the best bundles to **save upto 55%** with code **SPOOKY40CT**
+The following are the best bundles to **save upto 55%** with code **40KUBE25CT**
 
 - CKA + CKAD (45% Savings): [kube.promo/cka-ckad](https://kube.promo/cka-ckad)
 - CKA + CKS Bundle (45% Savings) [kube.promo/bundle](https://kube.promo/bundle)
