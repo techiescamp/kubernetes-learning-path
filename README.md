@@ -6,24 +6,27 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
-## Kubernetes Certification Voucher (UpTo 38% OFF) 🎉
+## Kubernetes Certification Voucher (UpTo 65% OFF) 🎉
 
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
 > [!IMPORTANT]
-> 🚀  Kubernetes Certification aspirants can **save 30%** today using code **DCUBE30** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+> 🚀  Kubernetes Certification aspirants can **save 50%** today using code **CW25CT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-The following are the best bundles to **save 38% (up to $788)** with code **DCUBE30**
+The following are the best bundles to **save 65%** with code **CW25BUNCT**
 
-- KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
-- CKA + CKAD + CKS Exam bundle ($528 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
-- CKA + CKS Bundle ($355 Savings) [kube.promo/bundle](https://kube.promo/bundle)
-- KCNA + CKA ( $288 Savings) [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
-- KCSA + CKS Exam Bundle ($229 Savings) [kube.promo/kcsa-cks](https://kube.promo/kcsa-cks)
-- KCNA + KCSA Exam Bundle ($203 Savings) [kube.promo/kcna-kcsa](https://kube.promo/kcna-kcsa)
+- CKA + CKAD ($450+ Savings): [kube.promo/cka-ckad](https://kube.promo/cka-ckad)
+- CKA + CKAD + CKS Exam bundle: [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
+- CKA + CKS Bundle: [kube.promo/bundle](https://kube.promo/bundle)
+
+Use code **CW25K8BUNCT** to get 60% discount on Kubestronaut Bundle
 
 > [!NOTE]
+> For all the offers, check out the [Linux Foudnation Coupon](https://github.com/techiescamp/linux-foundation-coupon) repo.
+
+
 >⌛ Act fast—this limited-time offer won’t be around much longer!
+
 > You have one year of validity to appear for the certification exam after registration
 
 ## Kubernetes Learning Prerequisites(Core IT Fundamentals)
