@@ -6,26 +6,25 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
-## Kubernetes Certification Voucher (UpTo 65% OFF) 🎉
+## Kubernetes Certification Voucher (UpTo 38% OFF) 🎉
 
-As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
+If you are learning Kubernetes and preparing for Kubernetes certifications, these voucher codes will help you save money on your certification registration.
 
 > [!IMPORTANT]
-> 🚀  Kubernetes Certification aspirants can **save 50%** today using code **CW25CT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+> 🚀  Kubernetes Certification aspirants can **save 30%** today using code **DCUBE30** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-The following are the best bundles to **save 65%** with code **CW25BUNCT**
+The following are the best bundles to **save 38% (up to $788)** with code **DCUBE30**
 
-- CKA + CKS Bundle: [kube.promo/bundle](https://kube.promo/bundle)
 - CKA + CKAD: [kube.promo/cka-ckad](https://kube.promo/cka-ckad)
+- CKA + CKS Bundle: [kube.promo/bundle](https://kube.promo/bundle)
 - CKA + CKAD + CKS Exam bundle: [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
-
-Use code **CW25K8BUNCT** to get 60% discount on Kubestronaut Bundle
+- KCNA + KCSA + CKA + CKAD + CKS: [kube.promo/kubestronaut](https://kube.promo/kubestronaut)
+- KCNA + CKA: [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
+- KCSA + CKS Exam Bundle: [kube.promo/kcsa-cks](https://kube.promo/kcsa-cks)
+- KCNA + KCSA Exam Bundle: [kube.promo/kcna-kcsa](https://kube.promo/kcna-kcsa)
 
 > [!NOTE]
-> For all the offers, check out the [Linux Foudnation Coupon](https://github.com/techiescamp/linux-foundation-coupon) repo.
-
 >⌛ Act fast—this limited-time offer won’t be around much longer!
-
 > You have one year of validity to appear for the certification exam after registration
 
 ## Kubernetes Learning Prerequisites(Core IT Fundamentals)
