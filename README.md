@@ -10,8 +10,10 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 If you are learning Kubernetes and preparing for Kubernetes certifications, these voucher codes will help you save money on your certification registration.
 
+CKA, CKAD, CKS, KCNA etc.. aspirants can **save 35%** today
+
 > [!IMPORTANT]
-> 🚀  Kubernetes Certification aspirants can **save 35%** today using code **LUNAR26CT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
+> Use code **LUNAR26CT** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
 The following are the best bundles to **save 50%** with code **LUNAR26BUNCT**
 
