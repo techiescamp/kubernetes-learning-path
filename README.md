@@ -6,15 +6,16 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure you're getting the latest information. 
 
-## Kubernetes Certification Voucher (Up to 38% OFF) 🎉
+## Kubernetes Certification Voucher (Up to 47% OFF) 🎉
 
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
 > [!IMPORTANT]
-> 🚀  Kubernetes Certification aspirants can **save 30%** today using code **DCUBE30** at [kube.promo/devops](https://kube.promo/devops). It is a limited-time offer from the Linux Foundation.
+> 🚀  Kubernetes Certification aspirants can **save 35%** today using code **OCT26NONCYBERCT** at [kube.promo/devops](https://kube.promo/devops). This limited-time offer is from the Linux Foundation.
 
 > [!NOTE]
-> Check out all the latest bundle offers at the [Linux Foundation Coupon](https://github.com/techiescamp/linux-foundation-coupon) repo.
+> For 47% bundle discounts, check out the [Linux Foundation Coupon](https://github.com/techiescamp/linux-foundation-coupon) repo.
+
 > ⌛ Act fast—this limited-time offer won’t be around much longer! You have one year of validity to appear for the certification exam after registration
 
 ## Kubernetes Learning Prerequisites(Core IT Fundamentals)
