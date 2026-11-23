@@ -34,26 +34,26 @@ Once you have a good grasp of the basics, learning Kubernetes can be fun and eas
 
 Here are the resources to brush up on the core fundamentals to master Kubernetes.
 
-- [Learn Container concepts & Container Management Tool- Docker/Podman](https://techiescamp.com/p/container-fundamentals-course)<sup>Free Course</sup>
-- [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
-- [Understand Authentication & Authorization](https://www.okta.com/identity-101/authentication-vs-authorization/) <sup>Blog</sup>
-- [Learn Basics of Key Value Store](https://redis.com/nosql/key-value-databases/)<sup>Blog</sup>
-- [Learn the basics of REST API](https://blog.postman.com/intro-to-apis-what-is-an-api/)<sup>Blog</sup>
-- [Learn YAML](https://www.educative.io/blog/yaml-tutorial?aff=KNLz)<sup>Blog</sup>
-- [Understand Service Discovery](https://devopscube.com/service-discovery-explained/) <sup>Blog</sup>
+- [Learn Container concepts & Container Management Tool- Docker/Podman](https://techiescamp.com/p/container-fundamentals-course)
+- [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
+- [Understand Authentication & Authorization](https://www.okta.com/identity-101/authentication-vs-authorization/)
+- [Learn Basics of Key Value Store](https://redis.com/nosql/key-value-databases/)
+- [Learn the basics of REST API](https://blog.postman.com/intro-to-apis-what-is-an-api/)
+- [Learn YAML](https://www.educative.io/blog/yaml-tutorial?aff=KNLz)
+- [Understand Service Discovery](https://devopscube.com/service-discovery-explained/)
 - Learn Networking Basics
-   - [L4 & L7 Layers (OSI Layers)](https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/)<sup>Blog</sup>
-   - [SSL/TLS](https://www.cloudflare.com/en-gb/learning/ssl/how-does-ssl-work/)<sup>Blog</sup>
-   - [Network Proxy Basics](https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server)<sup>Blog</sup>
-   - [DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)<sup>Blog</sup>
-   - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c)<sup>Video</sup> & [NFTables](https://www.linode.com/docs/guides/how-to-use-nftables/)<sup>Video</sup>
-   - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)<sup>Blog</sup>
+   - [L4 & L7 Layers (OSI Layers)](https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+   - [SSL/TLS](https://www.cloudflare.com/en-gb/learning/ssl/how-does-ssl-work/)
+   - [Network Proxy Basics](https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server)
+   - [DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+   - [IPTables](https://www.youtube.com/watch?v=6Ra17Qpj68c) & [NFTables](https://www.linode.com/docs/guides/how-to-use-nftables/)
+   - [Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking.html)
 
 ## Kubernetes Architecture
 
 Refer to the following documents to learn about every Kubernetes component in detail.
 
-- [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)<sup>Blog</sup>
+- [Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)
 
 The following image shows the high-level Kubernetes architecture and how external services connect to the cluster.
 
@@ -63,12 +63,12 @@ The following image shows the high-level Kubernetes architecture and how externa
 
 Launching large clusters in the cloud can be costly. So utilize the available cloud credits to practice deploying clusters as if you work on a real project. All cloud platforms offer managed Kubernetes services.
 
-- [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)<sup>Cloud Platform</sup>
-- [EKS - AWS $300 free POC credits](https://pages.awscloud.com/GLOBAL_NCA_LN_ARRC-program-A300-2023.html)<sup>Cloud Platform</sup>
-- [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)<sup>Cloud Platform</sup>
-- [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)<sup>Cloud Platform</sup>
-- [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)<sup>Cloud Platform</sup>
-- [AKS - Azure Cloud Hosting - $200 Free Credits](https://azure.microsoft.com/en-us/free/)<sup>Cloud Platform</sup>
+- [GKE -Google Cloud $300 free credits](https://cloud.google.com/kubernetes-engine)
+- [EKS - AWS $300 free POC credits](https://pages.awscloud.com/GLOBAL_NCA_LN_ARRC-program-A300-2023.html)
+- [DO Kubernetes - Digital Ocean – $200 free credits](https://devopscube.com/recommends/digital-ocean-sidebar/)
+- [Linode Kubernetes Engine - Linode Cloud – $100 Free credits](https://devopscube.com/recommends/linode-credits/)
+- [Vultr Kubernetes Engine - Vultr Cloud - $250 Free Credits](https://devopscube.com/recommends/vultr-credits/)
+- [AKS - Azure Cloud Hosting - $200 Free Credits](https://azure.microsoft.com/en-us/free/)
  
 ## Kubernetes Cluster Setup & Administration
 
@@ -76,17 +76,17 @@ As DevOps engineers, gaining a thorough understanding of each component and clus
 
 Additionally, mastering the configuration of multi-node clusters can be beneficial for interviews and building confidence in your abilities. The following are recommended ways to establish a Kubernetes cluster.
 
-- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)<sup>Github</sup>
-- [Kubeadm Cluster Setup](https://devopscube.com/setup-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
-- [Minikube Development Cluster ](https://devopscube.com/kubernetes-minikube-tutorial/)<sup>Blog</sup>
-- [Kind Development Cluster](https://kind.sigs.k8s.io/)<sup>Official Documentation</sup>
+- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+- [Kubeadm Cluster Setup](https://devopscube.com/setup-kubernetes-cluster-kubeadm/)
+- [Minikube Development Cluster ](https://devopscube.com/kubernetes-minikube-tutorial/)
+- [Kind Development Cluster](https://kind.sigs.k8s.io/)
 
 Following are some of the important cluster administrative tasks
 
-- [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)<sup>Official Doc</sup>
-- [Important Kubernetes Cluster Configurations](https://devopscube.com/kubernetes-cluster-configurations/)<sup>Blog</sup>
-- [Kubeadm Cluster Upgrade](https://devopscube.com/upgrade-kubernetes-cluster-kubeadm/)<sup>Blog</sup>
-- [etcd backup using etcdctl](https://devopscube.com/backup-etcd-restore-kubernetes/)<sup>Blog</sup>
+- [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
+- [Important Kubernetes Cluster Configurations](https://devopscube.com/kubernetes-cluster-configurations/)
+- [Kubeadm Cluster Upgrade](https://devopscube.com/upgrade-kubernetes-cluster-kubeadm/)
+- [etcd backup using etcdctl](https://devopscube.com/backup-etcd-restore-kubernetes/)
 
 ## Understand KubeConfig File
 
@@ -150,17 +150,17 @@ The structure remains the same for all native Kubernetes objects. While learning
 
 All the essential concepts in Kubernetes center around the Pod. Understanding Pods in detail, along with their supported features, is crucial for anyone working with Kubernetes because many other objects in Kubernetes are built around them. Below are comprehensive guides that delve into various aspects of the Pod with real-world practical examples.
 
-- [Kubernetes Pod Explained](https://devopscube.com/kubernetes-pod/) <sup>Blog</sup>
-- [multi-container pods](https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/)<sup>Blog</sup>
-- [Init Containers Explained](https://devopscube.com/kubernetes-init-containers/) <sup>Blog</sup>
-- [Pod Lifecycle Phases](https://devopscube.com/kubernetes-pod-lifecycle/)<sup>Blog</sup>
-- [Pod Priority, PriorityClass, and Preemption](https://devopscube.com/pod-priorityclass-preemption/)<sup>Blog</sup>
-- [Pod Quality or Service - QoS](https://blog.techiescamp.com/kubernetes-pod-qos/)<sup>Blog</sup>
-- [Troubleshoot Pod](https://devopscube.com/troubleshoot-kubernetes-pods/)<sup>Blog</sup>
-- [Container Lifecyle Hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/)<sup>Official Doc</sup>
-- [Pod Disruption Budget](https://cast.ai/blog/pod-disruption-budgets-in-your-deployment/)<sup>Blog</sup>
-- [Pod Affinity/Anti-Affinity](https://www.densify.com/kubernetes-autoscaling/kubernetes-affinity/)<sup>Blog</sup>
-- [Pod Labels & Selectors](https://www.split.io/blog/kubernetes-labels-best-practices/)<sup>Blog</sup>
+- [Kubernetes Pod Explained](https://devopscube.com/kubernetes-pod/)
+- [multi-container pods](https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/)
+- [Init Containers Explained](https://devopscube.com/kubernetes-init-containers/)
+- [Pod Lifecycle Phases](https://devopscube.com/kubernetes-pod-lifecycle/)
+- [Pod Priority, PriorityClass, and Preemption](https://devopscube.com/pod-priorityclass-preemption/)
+- [Pod Quality or Service - QoS](https://blog.techiescamp.com/kubernetes-pod-qos/)
+- [Troubleshoot Pod](https://devopscube.com/troubleshoot-kubernetes-pods/)
+- [Container Lifecyle Hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/)
+- [Pod Disruption Budget](https://cast.ai/blog/pod-disruption-budgets-in-your-deployment/)
+- [Pod Affinity/Anti-Affinity](https://www.densify.com/kubernetes-autoscaling/kubernetes-affinity/)
+- [Pod Labels & Selectors](https://www.split.io/blog/kubernetes-labels-best-practices/)
 
 In the topics above, we've covered all the core concepts of Pods that are used in production-level implementations. You should practice these concepts hands-on. Once you have a solid practical understanding of Pods, you can move on to learning about objects that depend on Pods.
 
@@ -286,28 +286,28 @@ Securing a Kubernetes cluster is not just a good practice; it's a necessity.
 - Compliance is another big factor, especially for businesses in regulated industries like healthcare or finance. You have to meet certain security standards, and a secure cluster is a step in that direction.
 - Lastly, there's the cost factor. Dealing with a security breach can be far more expensive than investing in security measures upfront.
 
-- **Kubernetes CIS Benchmarking**: [CIS Benchmarking using Kube-bench](https://devopscube.com/kube-bench-guide/)<sup>Blog</sup>
-- **Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)<sup>Blog</sup>
-- **Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)<sup>Blog</sup>
+- **Kubernetes CIS Benchmarking**: [CIS Benchmarking using Kube-bench](https://devopscube.com/kube-bench-guide/)
+- **Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)
+- **Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)
 
 ## Kubernetes Advanced Concepts
 
 Now that you have a basic understanding and practical knowledge of Kubernetes, you can begin exploring advanced Kubernetes concepts to further increase your knowledge.
 
-[**Admission Controllers:**](https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/)<sup>Official Blog</sup> These are plugins that intercept requests to the Kubernetes API server before the persistence of the object, but after the request is authenticated and authorized.
+[**Admission Controllers:**](https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/) These are plugins that intercept requests to the Kubernetes API server before the persistence of the object, but after the request is authenticated and authorized.
 
-[**Dynamic Admission Controller:**](https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/)<sup>Official Doc</sup> These are HTTP callbacks that receive admission requests and let you implement custom admission logic. There are two types of admission webhooks:
+[**Dynamic Admission Controller:**](https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/) These are HTTP callbacks that receive admission requests and let you implement custom admission logic. There are two types of admission webhooks:
 
    - **Validating Admission Webhooks:** They can be used to perform validations on Kubernetes objects and reject requests that do not meet certain criteria.
-   - [**Mutating Admission Webhooks:**](https://medium.com/ibm-cloud/diving-into-kubernetes-mutatingadmissionwebhook-6ef3c5695f74)<sup>Blog</sup> They can be used to modify Kubernetes objects before they are stored (for example, to inject sidecar containers into pods).
+   - [**Mutating Admission Webhooks:**](https://medium.com/ibm-cloud/diving-into-kubernetes-mutatingadmissionwebhook-6ef3c5695f74) They can be used to modify Kubernetes objects before they are stored (for example, to inject sidecar containers into pods).
 
-[**Custom Resource Definitions (CRDs):**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)<sup>Official Doc</sup> Extend Kubernetes API to create custom resources.
+[**Custom Resource Definitions (CRDs):**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) Extend Kubernetes API to create custom resources.
 
-[**Custom Resource & Controllers:**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)<sup>Official Doc</sup> Custom Resources in Kubernetes are like adding your own new types of objects. Just like you have built-in objects like Pods, Deployments, and Services, you can create your own. This is useful when you want to introduce new concepts or configurations that Kubernetes doesn't already know about.
+[**Custom Resource & Controllers:**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) Custom Resources in Kubernetes are like adding your own new types of objects. Just like you have built-in objects like Pods, Deployments, and Services, you can create your own. This is useful when you want to introduce new concepts or configurations that Kubernetes doesn't already know about.
 
 Custom Controllers are like the rules or instructions for what to do with your new custom resources. They watch for any changes to your custom resources and then make things happen in response.
 
-[**Custom Schedulers:**](https://blog.techiescamp.com/docs/kubernetes-custom-schedulers/)<sup>Blog</sup> By default, Kubernetes uses a default scheduler to assign pods to nodes. However, you might have specific scheduling requirements that aren't addressed by the default scheduler. In such cases, you can create a custom scheduler that can coexist with the default scheduler. You can then specify which scheduler to use for each pod. Custom schedulers allow you to implement complex, custom scheduling logic that might be unique to your application's needs.
+[**Custom Schedulers:**](https://blog.techiescamp.com/docs/kubernetes-custom-schedulers/) By default, Kubernetes uses a default scheduler to assign pods to nodes. However, you might have specific scheduling requirements that aren't addressed by the default scheduler. In such cases, you can create a custom scheduler that can coexist with the default scheduler. You can then specify which scheduler to use for each pod. Custom schedulers allow you to implement complex, custom scheduling logic that might be unique to your application's needs.
 
 ## Extending Kubernetes
 
@@ -338,28 +338,28 @@ Helm is a package manager for Kubernetes that allows users to easily install, ma
 
 Kustomize, on the other hand, is a tool that allows users to customize and configure existing Kubernetes manifests. It uses a concept called "patches" which can be applied to existing manifests to customize them for different environments and use cases. Unlike Helm, Kustomize does not include built-in support for versioning and rollback, and does not have a concept of "packages" or "repositories".
 
-- [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)<sup>Hands-On Blog</sup>
-- [Kuztomize Crash Course](https://techiescamp.com/p/kubernetes-kustomize-crash-course)<sup>Free Course</sup>
-- [Making the most out of Helm templates](https://blog.palark.com/advanced-helm-templating/)<sup>Blog</sup>
+- [Learn to Create Helm Chart From Scratch](https://devopscube.com/create-helm-chart/)
+- [Kuztomize Crash Course](https://techiescamp.com/p/kubernetes-kustomize-crash-course)
+- [Making the most out of Helm templates](https://blog.palark.com/advanced-helm-templating/)
 
 ## Kubernetes Deployment Tools (GitOps Based)
 
 GitOps is a technical practice that uses Git as a single source of truth for declarative infrastructure and application code. 
 
-- [Guide to GitOps](https://www.weave.works/technologies/gitops/)<sup>Official Doc</sup>
+- [Guide to GitOps](https://www.weave.works/technologies/gitops/)
 
 Some popular GitOps-based tools for deploying applications to Kubernetes clusters are:
 
-- [Argo CD](https://argo-cd.readthedocs.io/en/stable/)<sup>Official Doc</sup>
-- [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/)<sup>Official Doc</sup>
-- [FluxCD](https://fluxcd.io/)<sup>Official Doc</sup>
-- [JenkinsX](https://jenkins-x.io/)<sup>Official Doc</sup>
+- [Argo CD](https://argo-cd.readthedocs.io/en/stable/)
+- [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/)
+- [FluxCD](https://fluxcd.io/)
+- [JenkinsX](https://jenkins-x.io/)
 
 ## Learn Kubernetes Production Best Practices
 
-- [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
-- [Production Readiness Checklist](https://learnkube.com/production-best-practices)<sup>Blog</sup>
-- [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
+- [Learn About 12 Factor Apps](https://12factor.net/)
+- [Production Readiness Checklist](https://learnkube.com/production-best-practices)
+- [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e484987d-50ab-435c-907a-03e6e8f5d064" alt="01-k8s-prerequites-1" width="800" />
@@ -369,31 +369,31 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 
 Capacity planning is a key aspect of Kubernetes implementation. It's essential for cost savings, performance, resource allocation, scalability, and optimization, among other things.
 
-- [Kubernetes Node Capacity](https://www.densify.com/kubernetes-autoscaling/kubernetes-node-capacity/) <sup>Blog</sup>
-- [Rightsize the requests](https://sysdig.com/blog/kubernetes-capacity-planning/)<sup>Blog</sup>
-- [Kubernetes Instance Calculator](https://learnkube.com/kubernetes-instance-calculator)<sup>Tool & Doc</sup>
-- [Saving Millions of Dollars by Bin-Packing ClickHouse Pods in AWS EKS](https://clickhouse.com/blog/packing-kubernetes-pods-more-efficiently-saving-money)<sup>Blog</sup>
+- [Kubernetes Node Capacity](https://www.densify.com/kubernetes-autoscaling/kubernetes-node-capacity/)
+- [Rightsize the requests](https://sysdig.com/blog/kubernetes-capacity-planning/)
+- [Kubernetes Instance Calculator](https://learnkube.com/kubernetes-instance-calculator)
+- [Saving Millions of Dollars by Bin-Packing ClickHouse Pods in AWS EKS](https://clickhouse.com/blog/packing-kubernetes-pods-more-efficiently-saving-money)
 
 ## Real-World Kubernetes Case Studies
 
 If you do not have real-world Kubernetes experience, it is better to read case studies of other companies using kubernetes.
 
-- [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)<sup>Official Case Studies</sup>
-- [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k) <sup>Video</sup>
-- [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)<sup>Blog</sup>
-- [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)<sup>Blog</sup>
-- [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)<sup>Blog</sup>
-- [Scaling 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks)<sup>Blog</sup>
-- [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)<sup>Blog</sup>
-- [EKS architecture to improve resiliency](https://aws.amazon.com/blogs/containers/life360s-journey-to-a-multi-cluster-amazon-eks-architecture-to-improve-resiliency/)<sup>Blog</sup>
-- [Scaling Amazon EKS to thousands of nodes](https://aws.amazon.com/blogs/containers/mobileyes-journey-towards-scaling-amazon-eks-to-thousands-of-nodes/)<sup>Blog</sup>
+- [List of Kubernetes User Case Studies](https://kubernetes.io/case-studies/)
+- [Scheduling 300,000 Kubernetes Pods in Production Daily](https://www.youtube.com/watch?v=wjy35HfIP_k)
+- [How OpenAI Scaled Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)
+- [Testing 500 Pods Per Node](https://cloud.redhat.com/blog/500_pods_per_node)
+- [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)
+- [Scaling 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks)
+- [Kubernetes Infrastructure At Medium](https://medium.engineering/kubernetes-infrastructure-at-medium-d9e2444932ef)
+- [EKS architecture to improve resiliency](https://aws.amazon.com/blogs/containers/life360s-journey-to-a-multi-cluster-amazon-eks-architecture-to-improve-resiliency/)
+- [Scaling Amazon EKS to thousands of nodes](https://aws.amazon.com/blogs/containers/mobileyes-journey-towards-scaling-amazon-eks-to-thousands-of-nodes/)
 
 
 ## Kubernetes Failures/Learnings
 
-- [Learn From Kubernetes Failure Stories](https://k8s.af/) <sup>List of Blogs</sup>
-- [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
-- [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)<sup>Blog</sup>
+- [Learn From Kubernetes Failure Stories](https://k8s.af/)
+- [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)
+- [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)
 
 ## AWS EKS Resources
 
