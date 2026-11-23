@@ -98,7 +98,7 @@ The Kubeconfig file can be used to store information for multiple clusters and u
 
 Refer to the following document to learn about the Kubeconfig File in detail.
 
-- [Kubeconfig File Explained With Practical Examples](https://devopscube.com/kubernetes-kubeconfig-file/) <sup>Blog</sup>
+- [Kubeconfig File Explained With Practical Examples](https://devopscube.com/kubernetes-kubeconfig-file/)
 
 ## Understand Kubernetes Objects And Resources
 
